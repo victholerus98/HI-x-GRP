@@ -1,8 +1,9 @@
 import React from "react";
+import "./styles/userbutton.scss";
 
-const Userbutton = buttonName => {
+const Userbutton = ({ buttonName }) => {
   return (
-    <button>
+    <button className="userbutton margin-right-10">
       <p>{buttonName}</p>
     </button>
   );
