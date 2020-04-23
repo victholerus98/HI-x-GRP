@@ -1,0 +1,48 @@
+@import "base";
+.card {
+  width: 300px;
+  height: auto;
+  box-shadow: 0px 3px 10px #d7d7e0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 35px;
+  border-radius: 5px;
+
+  img {
+    width: 80%;
+    margin: 35px 0;
+    align-self: center;
+  }
+
+  object {
+    pointer-events: none;
+  }
+  p {
+    text-align: center;
+    font-family: $primary-font;
+    font-size: 14px;
+  }
+  h2 {
+    text-align: center;
+    font-family: $secondary-font;
+    font-size: 24px;
+    font-weight: 500;
+  }
+  .homebutton {
+    display: inline-block;
+  }
+  .tag {
+    display: inline-block;
+    background: #f4f4f4;
+    border-radius: 10px;
+    border: none;
+    padding: 4px 7px;
+  }
+  .card-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+}

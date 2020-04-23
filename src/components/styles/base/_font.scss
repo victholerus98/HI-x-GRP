@@ -1,6 +1,13 @@
-$primary-font: "Franklin Gothic Book";
-$secondary-font: "Franklin Gothic Heavy";
-
-h1 {
-  font-family: $primary-font;
+@font-face {
+  font-family: "Franklin Gothic Book";
+  src: url("../../../assets/Franklin Gothic Book Regular.ttf")
+    format("truetype");
 }
+@font-face {
+  font-family: "ITC FranklinGothic LT Book Com";
+  src: url("../../../assets/ITC Franklin Gothic LT Book Com Regular.otf")
+    format("opentype");
+}
+
+$primary-font: "Franklin Gothic Book";
+$secondary-font: "ITC FranklinGothic LT Book Com";
