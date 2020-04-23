@@ -3,7 +3,7 @@ import React from "react";
 const Card = () => {
   return (
     <div className="card">
-      <h2>Adaptation Fund</h2>
+      <h2>organization</h2>
       <img src={require("../assets/adaptation_fund.png")} alt="logo" />
       <p>
         A a member-based NGO comprised of regional and global development banks,
