@@ -1,0 +1,20 @@
+@import "base";
+
+.infoCards {
+  background: white;
+  margin: 10px;
+  width: 394px;
+  height: 162px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  //   justify-content: center;
+  padding: auto;
+
+  .textContainer {
+    margin: auto;
+  }
+  h1 {
+    padding: 5px 0;
+  }
+}
