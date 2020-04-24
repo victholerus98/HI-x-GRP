@@ -4,4 +4,12 @@
   background: url("../../assets/background_img.jpg") no-repeat center;
   background-size: cover;
   height: 465px;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+
+  .innerInfo {
+    display: flex;
+    flex-direction: row;
+  }
 }
