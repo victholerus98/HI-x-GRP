@@ -1,8 +1,8 @@
-import React from "react"
-import "./styles/card.scss"
+import React from "react";
+import "./styles/card.scss";
 
-const Card = ({item}) => {
-  const {NameOfInitiative, Summary, WebAddress} = item
+const Card = ({ item }) => {
+  const { NameOfInitiative, Summary, WebAddress } = item;
   return (
     <div className="card">
       <h2>{NameOfInitiative}</h2>
@@ -18,7 +18,7 @@ const Card = ({item}) => {
         </a>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Card
+export default Card;
