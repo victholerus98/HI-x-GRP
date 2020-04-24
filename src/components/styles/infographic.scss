@@ -6,11 +6,11 @@
   height: 465px;
   display: flex;
   flex-direction: column;
-  padding: 50px;
+  padding: 2vw;
 
   .infographicTitle {
     width: 80%;
-    margin: auto auto 0px auto;
+    margin: auto auto 0 auto;
     padding-left: 10px;
   }
 
@@ -19,20 +19,8 @@
     flex-direction: row;
     width: 80%;
     margin: 0 auto auto auto;
-    .cardOneTitle {
-      color: $secondary-color;
-      font-family: $title-font
-    }
-    .cardTwoTitle {
-      color: $green;
-      font-family: $title-font;
-    }
-    .cardThreeTitle {
-      color: $red;
-      font-family: $title-font
-    }
     h1 {
-      font-size: 48px;
+      font-size: 40px;
     }
   }
 }
