@@ -5,17 +5,17 @@ import "./styles/infographic.scss";
 const Infographic = ({ totalOrg, partners }) => {
   return (
     <div className="infographic">
-      <h1>Resilience Organizations</h1>
+      <h1 className="infographicTitle">Resilience Organizations</h1>
       <div className="innerInfo">
         <Infocards
           copy1="Today we have"
-          title={`${totalOrg} Initiatives`}
+          title={[<span className="cardOneTitle">{totalOrg} </span>, "initiatives"]}
           copy2="and counting..."
         />
-        <Infocards copy1="We work actively with" title="50+ Initiatives" />
+        <Infocards copy1="We work actively with" title={[<span className="cardTwoTitle">50+ </span>, "initiatives"]} />
         <Infocards
-          title="COVID-19"
-          copy2={`${"These are the actions taken by the \n initiatives"}`}
+          title={[<span className="cardThreeTitle">Covid 19</span>]}
+          copy2={`${"Actions taken by the \n initiatives"}`}
         />
       </div>
     </div>

@@ -8,8 +8,31 @@
   flex-direction: column;
   padding: 50px;
 
+  .infographicTitle {
+    width: 80%;
+    margin: auto auto 0px auto;
+    padding-left: 10px;
+  }
+
   .innerInfo {
     display: flex;
     flex-direction: row;
+    width: 80%;
+    margin: 0 auto auto auto;
+    .cardOneTitle {
+      color: $secondary-color;
+      font-family: $title-font
+    }
+    .cardTwoTitle {
+      color: $green;
+      font-family: $title-font;
+    }
+    .cardThreeTitle {
+      color: $red;
+      font-family: $title-font
+    }
+    h1 {
+      font-size: 48px;
+    }
   }
 }

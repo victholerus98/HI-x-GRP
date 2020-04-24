@@ -1,13 +1,19 @@
 @font-face {
   font-family: "Franklin Gothic Book";
-  src: url("../../../assets/Franklin Gothic Book Regular.ttf")
+  src: url("../../../assets/FranklinGothicBookRegular.ttf")
     format("truetype");
 }
 @font-face {
   font-family: "ITC FranklinGothic LT Book Com";
-  src: url("../../../assets/ITC Franklin Gothic LT Book Com Regular.otf")
+  src: url("../../../assets/ITCFranklinGothicLTBookComRegular.otf")
     format("opentype");
+}
+@font-face {
+  font-family: "Franklin Gothic Heavy";
+  src: url("../../../assets/FranklinGothicHeavyRegular.ttf")
+    format("truetype");
 }
 
 $primary-font: "Franklin Gothic Book";
 $secondary-font: "ITC FranklinGothic LT Book Com";
+$title-font: "Franklin Gothic Heavy";
