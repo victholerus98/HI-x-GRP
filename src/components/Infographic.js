@@ -7,10 +7,12 @@ import background from "../assets/background_img.jpg";
 const Infographic = () => {
     return(
         <div className="infographic">
-            <img src={background} alt="background-image"></img>
+            <Infocards />   
+            <Infocards />
             <Infocards />
         </div>
     )
 }
 
 export default Infographic;
+//<img src={background} alt="background-image"></img>

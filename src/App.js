@@ -8,8 +8,9 @@ import Navbar from "./components/Navbar"
 import Cards from "./components/Cards"
 
 function App() {
-  const data = Object.values(Data)
-
+  const data = Data
+  const dataLength = data.length
+  console.log(dataLength)
   return (
     <div className="App">
       <Navbar />

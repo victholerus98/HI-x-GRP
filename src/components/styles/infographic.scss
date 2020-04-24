@@ -1,13 +1,7 @@
 @import "base";
 
 .infographic {
-    // width: 100%;
-    // height: auto;
-img {
-    width: 100%;
-    height: auto;
+  background: url("../../assets/background_img.jpg") no-repeat center;
+  background-size: cover;
+  height: 465px;
 }
-}
-
-
-

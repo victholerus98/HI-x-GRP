@@ -1,8 +1,10 @@
 import React from "react";
 
-const Infocards = () => {
+const Infocards = ({}) => {
+    
     return (
         <div>PEPE</div>
+        
     )
 }
 
