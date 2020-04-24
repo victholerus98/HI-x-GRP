@@ -1,6 +1,7 @@
 import React from "react"
 import "./App.scss"
 import Data from "./assets/initiative.json"
+import Infographic from "./components/Infographic";
 
 //components
 import Navbar from "./components/Navbar"
@@ -12,6 +13,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
+      <Infographic />
       <Cards data={data} />
     </div>
   )
