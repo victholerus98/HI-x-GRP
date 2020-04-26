@@ -1,0 +1,29 @@
+@import "base";
+
+.infographic {
+  background: url("../../assets/background_img.jpg") no-repeat center;
+  background-size: cover;
+  height: 465px;
+  display: flex;
+  flex-direction: column;
+  padding: 2vw;
+
+  .infographicTitle {
+    width: 80%;
+    margin: auto auto 0 auto;
+    padding-left: 10px;
+    color: $white;
+    font-family: $primary-font;
+    font-weight: 500;
+  }
+
+  .innerInfo {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 0 auto auto auto;
+    h1 {
+      font-size: 40px;
+    }
+  }
+}

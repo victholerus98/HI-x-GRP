@@ -1,0 +1,48 @@
+@import "base";
+
+.infoCards {
+  background: white;
+  margin: 10px;
+  width: 25vw;
+  height: auto;
+  border-radius: 5px;
+  padding: 20px;
+
+  .cardOneTitle {
+    color: $secondary-color;
+    font-family: $title-font;
+  }
+  .cardTwoTitle {
+    color: $green;
+    font-family: $title-font;
+  }
+  .cardThreeTitle {
+    color: $red;
+    font-family: $title-font;
+  }
+
+  .outerContainer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  h1 {
+    padding: 5px 0;
+    font-family: $primary-font;
+  }
+
+  a {
+    width: 100%;
+    object {
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      top: 0;
+      right: 0;
+    }
+  }
+}
