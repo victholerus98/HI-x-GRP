@@ -13,17 +13,17 @@ const TagsFilter = ({ data }) => {
     }
   };
 
-  const filterData = () => {
-    const newDataSet = data.filter((item) => {
-      for (let i = 0; i < activeTags.length; i++) {
-        const keyValue = activeTags[i];
-        return item[keyValue];
-      }
-    });
+  //   const filterData = () => {
+  //     const newDataSet = data.filter((item) => {
+  //       for (let i = 0; i < activeTags.length; i++) {
+  //         const keyValue = activeTags[i];
+  //         return item[keyValue];
+  //       }
+  //     });
 
-    console.log(newDataSet);
-    if (newDataSet.length !== 0) setCardData(newDataSet);
-  };
+  //     console.log(newDataSet);
+  //     if (newDataSet.length !== 0) setCardData(newDataSet);
+  //   };
 
   useEffect(() => {
     const newDataSet = data.filter((item) => {
