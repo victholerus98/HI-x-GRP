@@ -15,8 +15,9 @@ const TagsFilter = ({ data }) => {
 
   const filterData = () => {
     const newDataSet = data.filter((item) => {
-      for (let i = 0; i < activeTags; i++) {
-        return item.activeTags[i] === "1";
+      for (let i = 0; i < activeTags.length; i++) {
+        const keyValue = activeTags[i];
+        return item[keyValue];
       }
     });
 
@@ -25,13 +26,21 @@ const TagsFilter = ({ data }) => {
   };
 
   useEffect(() => {
-    filterData();
+    const newDataSet = data.filter((item) => {
+      for (let i = 0; i < activeTags.length; i++) {
+        const keyValue = activeTags[i];
+        return item[keyValue];
+      }
+    });
+
+    console.log(newDataSet);
+    if (newDataSet.length !== 0) setCardData(newDataSet);
   }, [activeTags]);
   return (
     <div>
       {activeTags &&
-        activeTags.map((tag) => {
-          return <button>{tag}</button>;
+        activeTags.map((tag, i) => {
+          return <button key={i}>{tag}</button>;
         })}
       <button className="tag" onClick={setTags} data-tag="PolicyAndPlanning">
         Policy
