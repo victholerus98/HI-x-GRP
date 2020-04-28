@@ -6,6 +6,7 @@ import Infographic from "./components/Infographic";
 //components
 import Navbar from "./components/Navbar";
 import Cards from "./components/Cards";
+import Search from "./components/Search";
 
 function App() {
   const totalOrganizations = Data.length;
@@ -18,6 +19,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Infographic totalOrg={totalOrganizations} partners={50} />
+      <Search />
       <Cards data={Data} />
     </div>
   );
