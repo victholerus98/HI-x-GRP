@@ -3,18 +3,7 @@ import "./styles/card.scss";
 
 const Card = ({ item }) => {
   const { NameOfInitiative, Summary, WebAddress } = item;
-  const [image, setImage] = useState();
   const apiLogo = "//logo.clearbit.com/";
-
-  useEffect(() => {
-    fetch(apiLogo + WebAddress).then((response) => {
-      if (response.ok) {
-        setImage(true);
-      } else {
-        setImage(false);
-      }
-    });
-  }, [WebAddress]);
 
   return (
     <div className="card">
