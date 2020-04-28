@@ -20,11 +20,11 @@ const Card = ({ item }) => {
   return (
     <div className="card">
       <h2>{NameOfInitiative}</h2>
-      {WebAddress ? (
+      {/* {WebAddress ? (
         <img src={`${apiLogo + WebAddress}`} alt="logo" />
       ) : (
         <img src={require("../assets/IconPlaceholder.png")} alt="placeholder" />
-      )}
+      )} */}
 
       <p>{Summary}</p>
       <div className="card-links">
