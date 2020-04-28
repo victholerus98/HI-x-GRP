@@ -17,15 +17,23 @@ const Tags = ({item}) => {
     FinanceAndBudgets,
     PracticeAndInnovation
   ]
-  console.log(tagArray) //prettier-ignore
-  // const [, , , , , , , uncas, , , policy, knowledge, finance, practice] = Object.values(item)
-  // console.log(uncas, policy, knowledge, finance, practice)
+
+  const tagNameArray = [
+    "UNCAS", 
+    "Policy", 
+    "Knowledge", 
+    "Finance", 
+    "Innovation"
+  ];
+
   return (
     <div>
-      {PublicPrivateOrCSOFocus && (
-        <button className="tag">{PublicPrivateOrCSOFocus}</button>
-      )}
+        {tagArray.map((tag, i) =>{
+          return tag && <button className="tag">{tagNameArray[i]}</button>
+        })}
     </div>
   )
-}
+};
 export default Tags
+
+// return tag !== null ? <button className="tag">{tagNameArray[i]}</button> : null;
