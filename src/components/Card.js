@@ -1,21 +1,21 @@
-import React, {useState, useEffect} from "react"
-import "./styles/card.scss"
-import Tags from "./Tags"
+import React, { useState, useEffect } from "react";
+import "./styles/card.scss";
+import Tags from "./Tags";
 
-const Card = ({item}) => {
-  const {NameOfInitiative, Summary, WebAddress} = item
-  const [image, setImage] = useState()
-  const apiLogo = "//logo.clearbit.com/"
+const Card = ({ item }) => {
+  const { NameOfInitiative, Summary, WebAddress } = item;
+  // const [image, setImage] = useState();
+  const apiLogo = "//logo.clearbit.com/";
 
-  useEffect(() => {
-    fetch(apiLogo + WebAddress).then(response => {
-      if (response.ok) {
-        setImage(true)
-      } else {
-        setImage(false)
-      }
-    })
-  }, [WebAddress])
+  // useEffect(() => {
+  //   fetch(apiLogo + WebAddress).then(response => {
+  //     if (response.ok) {
+  //       setImage(true)
+  //     } else {
+  //       setImage(false)
+  //     }
+  //   })
+  // }, [WebAddress])
 
   return (
     <div className="card">
@@ -39,7 +39,7 @@ const Card = ({item}) => {
         ) : null}
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Card
+export default Card;
