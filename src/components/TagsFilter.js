@@ -8,22 +8,17 @@ const TagsFilter = ({ data }) => {
   const setTags = (e) => {
     const tagValue = e.currentTarget.dataset.tag;
     if (activeTags.indexOf(tagValue) === -1) {
-      setActiveTags((prevArray) => [...prevArray, tagValue]);
-      console.log(activeTags);
+      const newAddedArray = [...activeTags, tagValue];
+      setActiveTags(newAddedArray);
+      // console.log(activeTags);
     }
   };
 
-  //   const filterData = () => {
-  //     const newDataSet = data.filter((item) => {
-  //       for (let i = 0; i < activeTags.length; i++) {
-  //         const keyValue = activeTags[i];
-  //         return item[keyValue];
-  //       }
-  //     });
-
-  //     console.log(newDataSet);
-  //     if (newDataSet.length !== 0) setCardData(newDataSet);
-  //   };
+  const removeTags = (e) => {
+    const tagValue = e.currentTarget.dataset.tag;
+    const newRemovedArray = [...activeTags.filter((tag) => tag !== tagValue)];
+    setActiveTags(newRemovedArray);
+  };
 
   useEffect(() => {
     const newDataSet = data.filter((item) => {
@@ -33,14 +28,19 @@ const TagsFilter = ({ data }) => {
       }
     });
 
-    console.log(newDataSet);
+    if (newDataSet.length === 0) setCardData(data);
     if (newDataSet.length !== 0) setCardData(newDataSet);
-  }, [activeTags]);
+  }, [activeTags, data]);
+
   return (
     <div>
       {activeTags &&
         activeTags.map((tag, i) => {
-          return <button key={i}>{tag}</button>;
+          return (
+            <button key={i} onClick={removeTags} data-tag={tag}>
+              {tag}
+            </button>
+          );
         })}
       <button className="tag" onClick={setTags} data-tag="PolicyAndPlanning">
         Policy
