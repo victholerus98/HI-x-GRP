@@ -1,16 +1,17 @@
 import React from "react";
 import "./styles/search.scss";
 
+// child components
+import Searchbar from "./Searchbar";
+import Filter from "./Filter";
+import Tagbar from "./Tagbar";
+
 const Search = () => {
   return (
-    <div className="searchContainer">
-      <input className="searchBar" type="text" placeholder="Search..."></input>
-      <input
-        className="searchButton"
-        id="submitButton"
-        type="submit"
-        value=""
-      ></input>
+    <div>
+     <Searchbar />
+     <Filter />
+     <Tagbar />
     </div>
   );
 };
