@@ -1,0 +1,63 @@
+@import "base";
+
+.hidden {
+  display: none;
+}
+.filterDropDown {
+  background-color: $white;
+  box-shadow: 0px 3px 10px#D7D7E0;
+  padding: 20px;
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+  // left: 6.5vw;
+  transform: translateY(-15px);
+
+  .filterItem {
+    background-color: $off-white;
+    margin: 6px;
+    padding: 7px;
+    border-radius: 5px;
+    list-style-position: inside;
+    list-style: none;
+  }
+}
+.typeDisplacement {
+  transform: translateX(80px);
+}
+.geoDisplacement {
+  transform: translateX(185px);
+}
+ul li::before {
+  content: "\2022";
+  color: $secondary-color;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+}
+
+.filterContainer {
+  display: inline-block;
+  flex-direction: row;
+  margin: 2vh 3vw;
+  p {
+    padding: 10px;
+    font-family: $primary-font;
+    display: inline-block;
+    font-size: 18px;
+  }
+  button {
+    height: 2rem;
+    background-color: $primary-color;
+    border: none;
+    border-radius: 20px;
+    min-width: 60px;
+    padding: 4px 10px;
+    font-size: 18px;
+  }
+  object {
+    height: 10px;
+    margin-left: 10px;
+    pointer-events: none;
+  }
+}

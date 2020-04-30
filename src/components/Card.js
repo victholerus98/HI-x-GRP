@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./styles/card.scss";
+import Tags from "./Tags";
 
 const Card = ({ item }) => {
   const { NameOfInitiative, Summary, WebAddress } = item;
@@ -16,7 +17,7 @@ const Card = ({ item }) => {
 
       <p>{Summary}</p>
       <div className="card-links">
-        <button className="tag">Global</button>
+        <Tags item={item} />
         {WebAddress ? (
           <a className="homebutton" href={WebAddress}>
             <object
