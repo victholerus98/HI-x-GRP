@@ -37,6 +37,12 @@ const TagsFilter = ({ data }) => {
 
     // if (newDataSet.length === 0) setCardData(data);
     // if (newDataSet.length !== 0) setCardData(newDataSet);
+    // if (newDataSet.length === 0) setCardData(data);
+    // if (newDataSet.length !== 0) setCardData(newDataSet);
+    // if (newDataSet.length === 0) setCardData(data);
+    // if (newDataSet.length !== 0) setCardData(newDataSet);
+    // if (newDataSet.length === 0) setCardData(data);
+    // if (newDataSet.length !== 0) setCardData(newDataSet);
 
     switch (newDataSet.length) {
       case 0:
