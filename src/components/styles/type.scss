@@ -9,6 +9,8 @@
   position: absolute;
   z-index: 1;
   background-color: white;
+  left: 6.5vw;
+  transform: translateY(-15px);
 
   .typeItem {
     background-color: $off-white;
@@ -16,7 +18,15 @@
     padding: 7px;
     border-radius: 5px;
     list-style-position: inside;
+    list-style: none;
   }
+}
+ul li::before {
+  content: "\2022";
+  color: $secondary-color;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
 }
 
 .typeContainer {
