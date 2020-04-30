@@ -14,7 +14,7 @@ const Search = () => {
         <Tagbar />
         <Searchbar />
       </div>
-      <hr />
+      <hr className="hr-blue" />
     </div>
   );
 };

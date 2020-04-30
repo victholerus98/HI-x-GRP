@@ -26,12 +26,12 @@ const Filter = () => {
       <Filterselect
         filterName="Type"
         filterItems={typeItems}
-        style="typeDisplacement"
+        styleDropDown="typeDisplacement"
       />
       <Filterselect
         filterName="Geographic Focus"
         filterItems={geoItems}
-        style="geoDisplacement"
+        styleDropDown="geoDisplacement"
       />
     </div>
   );

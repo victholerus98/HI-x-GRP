@@ -1,9 +1,9 @@
-import React from "react"
-import Card from "./Card"
-import Masonry from "react-masonry-css"
-import "./styles/cards.scss"
+import React from "react";
+import Card from "./Card";
+import Masonry from "react-masonry-css";
+import "./styles/cards.scss";
 
-const Cards = ({data}) => {
+const Cards = ({ data }) => {
   return (
     <Masonry
       breakpointCols={4}
@@ -11,10 +11,10 @@ const Cards = ({data}) => {
       columnClassName="my-masonry-grid_column"
     >
       {data.map((item, i) => {
-        return <Card key={i} item={item} />
+        return <Card key={i} item={item} />;
       })}
     </Masonry>
-  )
-}
+  );
+};
 
-export default Cards
+export default Cards;

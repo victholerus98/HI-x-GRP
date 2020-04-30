@@ -1,9 +1,24 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import "./styles/filterselect.scss";
 
-const Filterselect = ({ filterName, filterItems, style }) => {
+const Filterselect = ({ filterName, filterItems, styleDropDown }) => {
   const [dropDownToggle, setDropDownToggle] = useState(false);
   const filterBtnClick = () => setDropDownToggle(!dropDownToggle);
+  const dropDown = useRef();
+
+  const dropDownDeselect = (e) => {
+    if (dropDown.current.contains(e.target) === false) {
+      setDropDownToggle(false);
+    }
+    return;
+  };
+
+  useEffect(() => {
+    document.addEventListener("mousedown", dropDownDeselect);
+    return () => {
+      document.removeEventListener("mousedown", dropDownDeselect);
+    };
+  }, []);
 
   return (
     <div>
@@ -20,9 +35,10 @@ const Filterselect = ({ filterName, filterItems, style }) => {
       <ul
         className={
           dropDownToggle
-            ? `filterDropDown ${style}`
-            : `hidden filterDropDown ${style}`
+            ? `filterDropDown ${styleDropDown}`
+            : `hidden filterDropDown ${styleDropDown}`
         }
+        ref={dropDown}
       >
         {filterItems.map((item) => (
           <li className="filterItem" key={item}>
