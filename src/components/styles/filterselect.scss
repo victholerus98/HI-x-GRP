@@ -10,7 +10,7 @@
   position: absolute;
   z-index: 1;
   background-color: white;
-  left: 6.5vw;
+  // left: 6.5vw;
   transform: translateY(-15px);
 
   .filterItem {
@@ -21,6 +21,12 @@
     list-style-position: inside;
     list-style: none;
   }
+}
+.typeDisplacement {
+  transform: translateX(80px);
+}
+.geoDisplacement {
+  transform: translateX(185px);
 }
 ul li::before {
   content: "\2022";

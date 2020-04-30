@@ -1,29 +1,38 @@
 import React from "react";
 import "./styles/filter.scss";
 import Filterselect from "./Filterselect";
-import Geographics from "./Geographics";
-
-// child components
-//import Type from "./Type";
-//import Geographics from "./Geographics";
 
 const typeItems = [
   "Fund and financing facilities",
   "Networks, alliances & partnership",
   "Organisations",
-  "Programmes & projects"
-]
+  "Programmes & projects",
+];
 const geoItems = [
-  "Fund and financing facilities",
-  "Networks, alliances & partnership",
-  "Organisations",
-  "Programmes & projects"
-]
+  "Global",
+  "Asia",
+  "South East Asia",
+  "South Asia",
+  "SIDS",
+  "Africa",
+  "LA",
+  "MENA",
+  "Other (e.g Europe NA)",
+];
 
 const Filter = () => {
   return (
     <div className="filter">
-      <Filterselect filterName={typeItems && geoItems} />
+      <Filterselect
+        filterName="Type"
+        filterItems={typeItems}
+        style="typeDisplacement"
+      />
+      <Filterselect
+        filterName="Geographic Focus"
+        filterItems={geoItems}
+        style="geoDisplacement"
+      />
     </div>
   );
 };

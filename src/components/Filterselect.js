@@ -1,6 +1,7 @@
 import React, { useState } from "react";
+import "./styles/filterselect.scss";
 
-const Filterselect = ({ filterName, filterItems }) => {
+const Filterselect = ({ filterName, filterItems, style }) => {
   const [dropDownToggle, setDropDownToggle] = useState(false);
   const filterBtnClick = () => setDropDownToggle(!dropDownToggle);
 
@@ -17,9 +18,13 @@ const Filterselect = ({ filterName, filterItems }) => {
         </button>
       </div>
       <ul
-        className={dropDownToggle ? "filterDropDown" : "hidden filterDropDown"}
+        className={
+          dropDownToggle
+            ? `filterDropDown ${style}`
+            : `hidden filterDropDown ${style}`
+        }
       >
-        {filterItems.map(item => (
+        {filterItems.map((item) => (
           <li className="filterItem" key={item}>
             {item}
           </li>
