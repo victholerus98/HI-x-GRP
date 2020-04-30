@@ -16,7 +16,10 @@ const Type = () => {
     <div>
       <div className="typeContainer">
         <p>Type</p>
-        <button onClick={handleBtnClick}>All</button>
+        <button onClick={handleBtnClick}>All<object
+              data={require("../assets/arrow.svg")}
+              aria-label="arrow"
+            ></object></button>
       </div>
       <ul className={typeToggle ? "typeDropDown" : "hidden typeDropDown"}>
         {typeItems.map(typeItem => (
