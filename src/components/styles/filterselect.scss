@@ -3,6 +3,7 @@
 .hidden {
   display: none;
 }
+
 .filterDropDown {
   background-color: $white;
   box-shadow: 0px 3px 10px#D7D7E0;
@@ -53,7 +54,7 @@ ul li::before {
     border-radius: 20px;
     min-width: 60px;
     padding: 4px 10px;
-    font-size: 18px;
+    font-size: 16px;
   }
   object {
     height: 10px;

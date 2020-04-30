@@ -1,13 +1,39 @@
-import React from "react";
+import React, { useState } from "react";
 import "./styles/tagbar.scss";
 
-// child components
-
+const tagsArray = [
+  "Global",
+  "Asia",
+  "South East Asia",
+  "South Asia",
+  "SIDS",
+  "Africa",
+  "LA",
+  "MENA",
+  "Other (e.g Europe NA)",
+];
 
 const Tagbar = () => {
+  const [dropDownToggle, setDropDownToggle] = useState(false);
+  const tagBtnClick = () => setDropDownToggle(!dropDownToggle);
+
   return (
-    <div>
-        
+    <div className="tagContainer">
+      <button className="tagMenu" onClick={tagBtnClick}>
+        Tags +
+      </button>
+
+      <div className={dropDownToggle ? "tagDropDown" : "hidden tagDropDown"}>
+        <p>Tags</p>
+        <hr />
+        {tagsArray.map((tag, i) => {
+          return (
+            <button className="tag" key={i}>
+              {tag + " x"}
+            </button>
+          );
+        })}
+      </div>
     </div>
   );
 };

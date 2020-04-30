@@ -11,10 +11,10 @@ const Search = () => {
     <div>
       <div className="search">
         <Filter />
-        <Tagbar />
         <Searchbar />
       </div>
-      <hr className="hr-blue" />
+      <hr className="hrBlue" />
+      <Tagbar />
     </div>
   );
 };
