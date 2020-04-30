@@ -1,8 +1,9 @@
 @import "base";
+
 .hidden {
   display: none;
 }
-.typeDropDown {
+.filterDropDown {
   background-color: $white;
   box-shadow: 0px 3px 10px#D7D7E0;
   padding: 20px;
@@ -12,7 +13,7 @@
   left: 6.5vw;
   transform: translateY(-15px);
 
-  .typeItem {
+  .filterItem {
     background-color: $off-white;
     margin: 6px;
     padding: 7px;
@@ -29,7 +30,7 @@ ul li::before {
   width: 1em;
 }
 
-.typeContainer {
+.filterContainer {
   display: inline-block;
   flex-direction: row;
   margin: 2vh 3vw;
