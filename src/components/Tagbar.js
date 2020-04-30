@@ -14,8 +14,8 @@ const tagsArray = [
 ];
 
 const Tagbar = () => {
-  const [dropDownToggle, setDropDownToggle] = useState(false);
-  const tagBtnClick = () => setDropDownToggle(!dropDownToggle);
+  const [tagdropDownToggle, setDropDownToggle] = useState(false);
+  const tagBtnClick = () => setDropDownToggle(!tagdropDownToggle);
 
   return (
     <div className="tagContainer">
@@ -23,7 +23,7 @@ const Tagbar = () => {
         Tags +
       </button>
 
-      <div className={dropDownToggle ? "tagDropDown" : "hidden tagDropDown"}>
+      <div className={tagdropDownToggle ? "tagDropDown" : "hidden"}>
         <p>Tags</p>
         <hr />
         {tagsArray.map((tag, i) => {
