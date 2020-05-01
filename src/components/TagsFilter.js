@@ -27,22 +27,14 @@ const TagsFilter = ({ data }) => {
         const keyValue = activeTags[i];
         if (item[keyValue]) {
           strictFilter = true;
-          console.log(i, activeTags[i], item[keyValue]);
+          // console.log(i, activeTags[i], item[keyValue]);
         } else {
           strictFilter = false;
         }
       }
+      console.log(strictFilter);
       return strictFilter;
     });
-
-    // if (newDataSet.length === 0) setCardData(data);
-    // if (newDataSet.length !== 0) setCardData(newDataSet);
-    // if (newDataSet.length === 0) setCardData(data);
-    // if (newDataSet.length !== 0) setCardData(newDataSet);
-    // if (newDataSet.length === 0) setCardData(data);
-    // if (newDataSet.length !== 0) setCardData(newDataSet);
-    // if (newDataSet.length === 0) setCardData(data);
-    // if (newDataSet.length !== 0) setCardData(newDataSet);
 
     switch (newDataSet.length) {
       case 0:
