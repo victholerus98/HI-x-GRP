@@ -8,19 +8,14 @@ import Navbar from "./components/Navbar";
 import Cards from "./components/Cards";
 import Search from "./components/Search";
 
-
 function App() {
   const totalOrganizations = Data.length;
-  // const partnerArray = Data.filter((object) => {
-  //   return object.Type.search("partnership") > -1;
-  // });
-  // console.log(partnerArray.length);
 
   return (
     <div className="App">
       <Navbar />
       <Infographic totalOrg={totalOrganizations} partners={50} />
-      
+
       <Search />
       <Cards data={Data} />
     </div>
