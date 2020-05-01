@@ -1,25 +1,26 @@
-import React, {useState} from "react"
-import "./styles/searchbar.scss"
+import React, { useState } from "react";
+import "./styles/searchbar.scss";
 
-const Searchbar = ({data, setData}) => {
-  const [searchTerm, setSearchTerm] = useState("")
+const Searchbar = ({ data, setData }) => {
+  const [searchTerm, setSearchTerm] = useState("");
 
-  let wordMatch = 0
+  let wordMatch = 0;
   const handleSearch = () => {
-    const results = data.filter(item => {
+    const results = data.filter((item) => {
       if (item.NameOfInitiative.includes(searchTerm)) {
-        wordMatch++
+        wordMatch++;
       }
       if (item.Summary.includes(searchTerm)) {
-        wordMatch++
+        wordMatch++;
       }
-    })
-    return wordMatch ? setData(results) : setData(data)
-  }
+      return wordMatch;
+    });
+    setData(results);
+  };
 
-  const handleChange = event => {
-    setSearchTerm(event.target.value)
-  }
+  const handleChange = (event) => {
+    setSearchTerm(event.target.value);
+  };
 
   return (
     <div className="searchContainer">
@@ -38,7 +39,7 @@ const Searchbar = ({data, setData}) => {
         onClick={handleSearch}
       ></input>
     </div>
-  )
-}
+  );
+};
 
-export default Searchbar
+export default Searchbar;
