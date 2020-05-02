@@ -8,6 +8,7 @@ const Searchbar = ({ data, setData, defaultData }) => {
   const handleSearch = () => {
     const activeData = data.length === 0 ? defaultData : data;
     console.log(typeof activeData);
+    //ActiveData can be the thing that breaks all the other functions
 
     const results = activeData.filter((item) => {
       if (item.NameOfInitiative.includes(searchTerm)) {
