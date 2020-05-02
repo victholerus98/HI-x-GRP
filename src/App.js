@@ -1,25 +1,31 @@
-import React from "react";
-import "./App.scss";
-import Data from "./assets/initiative.json";
-import Infographic from "./components/Infographic";
+import React, {useState} from "react"
+import "./App.scss"
+import Data from "./assets/initiative.json"
+import Infographic from "./components/Infographic"
 
 //components
-import Navbar from "./components/Navbar";
-import Cards from "./components/Cards";
-import Search from "./components/Search";
+import Navbar from "./components/Navbar"
+import Cards from "./components/Cards"
+import Search from "./components/Search"
 
 function App() {
-  const totalOrganizations = Data.length;
+  const [data, setData] = useState(Data)
+
+  const totalOrganizations = Data.length
+  // const partnerArray = Data.filter((object) => {
+  //   return object.Type.search("partnership") > -1;
+  // });
+  // console.log(partnerArray.length);
 
   return (
     <div className="App">
       <Navbar />
       <Infographic totalOrg={totalOrganizations} partners={50} />
 
-      <Search />
-      <Cards data={Data} />
+      <Search data={data} setData={setData} />
+      <Cards data={data} />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

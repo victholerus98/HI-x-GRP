@@ -1,22 +1,22 @@
-import React from "react";
-import "./styles/search.scss";
+import React from "react"
+import "./styles/search.scss"
 
 // child components
-import Searchbar from "./Searchbar";
-import Filter from "./Filter";
-import Tagbar from "./Tagbar";
+import Searchbar from "./Searchbar"
+import Filter from "./Filter"
+import Tagbar from "./Tagbar"
 
-const Search = () => {
+const Search = ({data, setData}) => {
   return (
     <div>
       <div className="search">
         <Filter />
-        <Searchbar />
+        <Searchbar data={data} setData={setData} />
       </div>
       <hr className="hrBlue" />
       <Tagbar />
     </div>
-  );
-};
+  )
+}
 
-export default Search;
+export default Search
