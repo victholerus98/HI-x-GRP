@@ -8,32 +8,25 @@ const TagsFilter = ({ data }) => {
   const setTags = (e) => {
     const tagValue = e.currentTarget.dataset.tag;
     if (activeTags.indexOf(tagValue) === -1) {
-      // const newAddedArray = [...activeTags, tagValue];
       setActiveTags((prevArr) => [...prevArr, tagValue]);
-      // console.log(activeTags);
     }
   };
 
   const removeTags = (e) => {
     const tagValue = e.currentTarget.dataset.tag;
-    // const newRemovedArray = [...activeTags.filter((tag) => tag !== tagValue)];
     setActiveTags([...activeTags.filter((tag) => tag !== tagValue)]);
   };
 
   useEffect(() => {
     const newDataSet = data.filter((item) => {
-      let strictFilter = false;
+      let strictFilter = 0;
       for (let i = 0; i < activeTags.length; i++) {
         const keyValue = activeTags[i];
         if (item[keyValue]) {
-          strictFilter = true;
-          // console.log(i, activeTags[i], item[keyValue]);
-        } else {
-          strictFilter = false;
+          strictFilter++;
         }
       }
-      console.log(strictFilter);
-      return strictFilter;
+      return strictFilter === activeTags.length;
     });
 
     switch (newDataSet.length) {
