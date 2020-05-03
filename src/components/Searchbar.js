@@ -1,8 +1,5 @@
 import React, { useState } from "react";
 import "./styles/searchbar.scss";
-import Data from "../assets/initiative.json";
-
-
 
 const Searchbar = ({ data, setData }) => {
   const [searchTerm, setSearchTerm] = useState("");

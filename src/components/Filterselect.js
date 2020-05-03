@@ -22,7 +22,7 @@ const Filterselect = ({ filterName, filterItems, styleDropDown }) => {
 
   return (
     <div>
-      <div className="filterContainer">
+      <div className="filterContainer" ref={dropDown}>
         <p>{filterName}</p>
         <button onClick={filterBtnClick}>
           All
@@ -38,7 +38,6 @@ const Filterselect = ({ filterName, filterItems, styleDropDown }) => {
             ? `filterDropDown ${styleDropDown}`
             : `hidden filterDropDown ${styleDropDown}`
         }
-        ref={dropDown}
       >
         {filterItems.map((item) => (
           <li className="filterItem" key={item}>
