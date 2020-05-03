@@ -1,12 +1,16 @@
 import React, { useState } from "react";
 import "./styles/searchbar.scss";
 
-const Searchbar = ({ data, setData }) => {
+const Searchbar = ({ data, setData, defaultData }) => {
   const [searchTerm, setSearchTerm] = useState("");
 
   let wordMatch = 0;
   const handleSearch = () => {
-    const results = data.filter((item) => {
+    const activeData = data.length === 0 ? defaultData : data;
+    console.log(typeof activeData);
+    //ActiveData can be the thing that breaks all the other functions
+
+    const results = activeData.filter((item) => {
       if (item.NameOfInitiative.includes(searchTerm)) {
         wordMatch++;
       }
@@ -15,11 +19,17 @@ const Searchbar = ({ data, setData }) => {
       }
       return wordMatch;
     });
-    setData(results);
+
+    if (searchTerm.length > 0) {
+      setData(results);
+    } else {
+      setData(defaultData);
+    }
   };
 
   const handleChange = (event) => {
     setSearchTerm(event.target.value);
+    if (event.key === "Enter") handleSearch();
   };
 
   return (
@@ -28,6 +38,11 @@ const Searchbar = ({ data, setData }) => {
         className="searchBar"
         value={searchTerm}
         onChange={handleChange}
+        onKeyPress={(event) => {
+          if (event.key === "Enter") {
+            handleSearch();
+          }
+        }}
         type="text"
         placeholder="Search..."
       ></input>
