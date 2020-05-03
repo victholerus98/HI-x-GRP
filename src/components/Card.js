@@ -1,16 +1,15 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./styles/card.scss";
 import Tags from "./Tags";
 
 const Card = ({ item }) => {
-  const { NameOfInitiative, Summary, WebAddress } = item;
-  const apiLogo = "//logo.clearbit.com/";
+  const { NameOfInitiative, Summary, WebAddress, logo } = item;
 
   return (
     <div className="card">
       <h2>{NameOfInitiative}</h2>
-      {WebAddress ? (
-        <img src={`${apiLogo + WebAddress}`} alt="logo" />
+      {logo ? (
+        <img src={`${logo}`} alt="logo" />
       ) : (
         <img src={require("../assets/IconPlaceholder.png")} alt="placeholder" />
       )}
