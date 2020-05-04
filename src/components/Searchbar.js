@@ -7,14 +7,16 @@ const Searchbar = ({ data, setData, defaultData }) => {
   let wordMatch = 0;
   const handleSearch = () => {
     const activeData = data.length === 0 ? defaultData : data;
-    console.log(typeof activeData);
+    // console.log(typeof activeData);
     //ActiveData can be the thing that breaks all the other functions
 
     const results = activeData.filter((item) => {
-      if (item.NameOfInitiative.includes(searchTerm)) {
+      if (
+        item.NameOfInitiative.toUpperCase().includes(searchTerm.toUpperCase())
+      ) {
         wordMatch++;
       }
-      if (item.Summary.includes(searchTerm)) {
+      if (item.Summary.toUpperCase().includes(searchTerm.toUpperCase())) {
         wordMatch++;
       }
       return wordMatch;
