@@ -5,27 +5,13 @@ const Filterselect = ({
   filterName,
   filterItems,
   styleDropDown,
-  filtertype,
-  data,
-  setData,
-  defaultData,
+  selectFilter,
+  setSelectFilter,
 }) => {
   const [dropDownToggle, setDropDownToggle] = useState(false);
-  const [selectFilter, setSelectFilter] = useState("All");
-
   const filterBtnClick = () => setDropDownToggle(!dropDownToggle);
 
-  useEffect(() => {
-    const filteredData = data.filter((item) => {
-      console.log(item[filtertype] === selectFilter);
-      return item[filtertype] === selectFilter;
-    });
-
-    if (filteredData.length) setData(filteredData);
-  }, [selectFilter]);
-
   // const dropDown = useRef();
-
   // const dropDownDeselect = (e) => {
   //   if (dropDown.current.contains(e.target) === false) {
   //     setDropDownToggle(false);
@@ -42,8 +28,8 @@ const Filterselect = ({
   // }, []);
 
   const setFilter = (e) => {
-    setSelectFilter(e.currentTarget.dataset.filter);
     setDropDownToggle(false);
+    setSelectFilter(e.currentTarget.dataset.filter);
   };
 
   return (

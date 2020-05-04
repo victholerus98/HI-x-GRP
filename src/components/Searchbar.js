@@ -1,17 +1,23 @@
 import React, { useState } from "react";
 import "./styles/searchbar.scss";
 
-const Searchbar = ({ searchTerm, setSearchTerm, handleSearch }) => {
+const Searchbar = ({ setSearchTerm }) => {
+  const [preSearchTerm, setPreSearchTerm] = useState("");
+
   const handleChange = (event) => {
-    setSearchTerm(event.target.value);
+    setPreSearchTerm(event.target.value);
     if (event.key === "Enter") handleSearch();
+  };
+
+  const handleSearch = () => {
+    setSearchTerm(preSearchTerm);
   };
 
   return (
     <div className="searchContainer">
       <input
         className="searchBar"
-        value={searchTerm}
+        value={preSearchTerm}
         onChange={handleChange}
         onKeyPress={(event) => {
           if (event.key === "Enter") {
