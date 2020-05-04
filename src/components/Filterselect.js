@@ -46,9 +46,7 @@ const Filterselect = ({
       </div>
       <div
         className={
-          dropDownToggle
-            ? `filterDropDown ${styleDropDown}`
-            : `hidden filterDropDown ${styleDropDown}`
+          dropDownToggle ? `filterDropDown ${styleDropDown}` : `hidden`
         }
         // ref={dropDown}
       >

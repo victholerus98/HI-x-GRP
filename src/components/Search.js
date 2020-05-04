@@ -28,16 +28,62 @@ const geoItems = [
 ];
 
 const Search = ({ data, setData, defaultData }) => {
-  //Search Bar functionalities
   const [searchTerm, setSearchTerm] = useState("");
   const [selectType, setSelectType] = useState("All");
   const [selectGeo, setSelectGeo] = useState("All");
+  const [activeTags, setActiveTags] = useState([]);
+  const [displayTags, setDisplayTags] = useState([]);
+
+  /*
+  useEffect(() => {
+    if(Tags) Tags(data)
+    if(selectType !== "ALL" && selectGeo !== "ALL") Tags(data)
+    if(searchTerm) Search(data)
+  }, [])
+
+  function Filter(data)
+  function Tags(data)
+  function Search(data)
+  */
 
   useEffect(() => {
+    let searchResult = defaultData;
+    let filterResults = false;
+
+    //tags function
+    if (activeTags.length > 0) {
+      searchResult = tag(searchResult);
+      if (searchResult.length !== 0) filterResults = true;
+    }
+
+    //Filter function
+    if (selectType !== "All") {
+      searchResult = filter(searchResult, "Type", selectType);
+      if (searchResult.length !== 0) filterResults = true;
+    }
+
+    if (selectGeo !== "All") {
+      searchResult = filter(searchResult, "MainGeographicFocus", selectGeo);
+      if (searchResult.length !== 0) filterResults = true;
+    }
+
+    //Search Bar function
+    if (searchTerm) {
+      searchResult = search(searchResult);
+      if (searchResult !== 0) filterResults = true;
+    }
+
+    if (filterResults) {
+      console.log("data length " + searchResult.length);
+      setData(searchResult);
+    } else {
+      setData(defaultData);
+    }
+  }, [searchTerm, selectType, selectGeo, activeTags]);
+
+  function search(data) {
     let wordMatch = 0;
-    const activeData = data.length === 0 ? defaultData : data;
-    //ActiveData can be the thing that breaks all the other functions
-    const results = activeData.filter((item) => {
+    return data.filter((item) => {
       if (item.NameOfInitiative.includes(searchTerm)) {
         wordMatch++;
       }
@@ -46,23 +92,26 @@ const Search = ({ data, setData, defaultData }) => {
       }
       return wordMatch;
     });
+  }
 
-    if (searchTerm.length > 0) {
-      setData(results);
-    } else {
-      setData(defaultData);
-    }
-  }, [data, searchTerm]);
-  //Filter functionality
+  function filter(data, filtertype, selectFilter) {
+    return data.filter((item) => {
+      return item[filtertype] === selectFilter;
+    });
+  }
 
-  // useEffect(() => {
-  //   const filteredData = data.filter((item) => {
-  //     console.log(item[filtertype] === selectFilter);
-  //     return item[filtertype] === selectFilter;
-  //   });
-
-  //   if (filteredData.length) setData(filteredData);
-  // }, [selectFilter]);
+  function tag(data) {
+    return data.filter((item) => {
+      let strictFilter = 0;
+      for (let i = 0; i < activeTags.length; i++) {
+        const keyValue = activeTags[i];
+        if (item[keyValue]) {
+          strictFilter++;
+        }
+      }
+      return strictFilter === activeTags.length;
+    });
+  }
 
   return (
     <div>
@@ -86,7 +135,12 @@ const Search = ({ data, setData, defaultData }) => {
         <Searchbar setSearchTerm={setSearchTerm} />
       </div>
       <hr className="hrBlue" />
-      <Tagbar />
+      <Tagbar
+        activeTags={activeTags}
+        setActiveTags={setActiveTags}
+        displayTags={displayTags}
+        setDisplayTags={setDisplayTags}
+      />
     </div>
   );
 };

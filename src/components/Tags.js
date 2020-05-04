@@ -3,19 +3,19 @@ import React from "react";
 const Tags = ({ item }) => {
   const {
     LinkedToUNCAS,
-    MainGeographicFocus,
     PublicPrivateOrCSOFocus,
     PolicyAndPlanning,
     KnowledgeAndlearning,
     FinanceAndBudgets,
-    PracticeAndInnovation
+    PracticeAndInnovation,
   } = item;
+
   const tagArray = [
     LinkedToUNCAS,
     PolicyAndPlanning,
     KnowledgeAndlearning,
     FinanceAndBudgets,
-    PracticeAndInnovation
+    PracticeAndInnovation,
   ];
 
   const tagNameArray = [
@@ -23,7 +23,7 @@ const Tags = ({ item }) => {
     "Policy",
     "Knowledge",
     "Finance",
-    "Innovation"
+    "Innovation",
   ];
   const publicPrivateCsoFocus = PublicPrivateOrCSOFocus.replace(/\s+/g, "")
     .replace("&", ",")
