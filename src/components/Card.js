@@ -3,22 +3,18 @@ import "./styles/card.scss";
 import Tags from "./Tags";
 
 const Card = ({ item }) => {
-  const { NameOfInitiative, Summary, WebAddress, logo } = item;
+  const { NameOfInitiative, Summary, Webaddress, logo } = item;
 
   return (
     <div className="card">
       <h2>{NameOfInitiative}</h2>
-      {logo ? (
-        <img src={`${logo}`} alt="logo" />
-      ) : (
-        <img src={require("../assets/IconPlaceholder.png")} alt="placeholder" />
-      )}
+      {logo ? <img src={`${logo}`} alt="logo" /> : null}
 
       <p>{Summary}</p>
       <div className="card-links">
         <Tags item={item} />
-        {WebAddress ? (
-          <a className="homebutton" href={WebAddress}>
+        {Webaddress ? (
+          <a className="homebutton" href={Webaddress}>
             <object
               data={require("../assets/homebtn.svg")}
               aria-label="homebutton"

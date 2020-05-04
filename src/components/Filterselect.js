@@ -3,6 +3,8 @@ import "./styles/filterselect.scss";
 
 const Filterselect = ({ filterName, filterItems, styleDropDown }) => {
   const [dropDownToggle, setDropDownToggle] = useState(false);
+  const [selectFilter, setSelectFilter] = useState("All");
+
   const filterBtnClick = () => setDropDownToggle(!dropDownToggle);
   const dropDown = useRef();
 
@@ -20,19 +22,24 @@ const Filterselect = ({ filterName, filterItems, styleDropDown }) => {
     };
   }, []);
 
+  const setFilter = (e) => {
+    console.log(e.currentTarget.dataset.filter);
+    setSelectFilter(e.currentTarget.dataset.filter);
+  };
+
   return (
     <div>
       <div className="filterContainer" ref={dropDown}>
         <p>{filterName}</p>
         <button onClick={filterBtnClick}>
-          All
+          {selectFilter}
           <object
             data={require("../assets/arrow.svg")}
             aria-label="arrow"
           ></object>
         </button>
       </div>
-      <ul
+      <div
         className={
           dropDownToggle
             ? `filterDropDown ${styleDropDown}`
@@ -40,11 +47,18 @@ const Filterselect = ({ filterName, filterItems, styleDropDown }) => {
         }
       >
         {filterItems.map((item) => (
-          <li className="filterItem" key={item}>
+          <button
+            className="filterItem"
+            key={item}
+            data-filter={item}
+            onClick={(e) => {
+              console.log(e);
+            }}
+          >
             {item}
-          </li>
+          </button>
         ))}
-      </ul>
+      </div>
     </div>
   );
 };

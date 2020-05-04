@@ -3,12 +3,14 @@ import "./styles/filter.scss";
 import Filterselect from "./Filterselect";
 
 const typeItems = [
+  "All",
   "Fund and financing facilities",
   "Networks, alliances & partnership",
   "Organisations",
   "Programmes & projects",
 ];
 const geoItems = [
+  "All",
   "Global",
   "Asia",
   "South East Asia",
