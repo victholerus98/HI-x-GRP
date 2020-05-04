@@ -6,21 +6,22 @@ const Filterselect = ({ filterName, filterItems, styleDropDown }) => {
   const [selectFilter, setSelectFilter] = useState("All");
 
   const filterBtnClick = () => setDropDownToggle(!dropDownToggle);
-  // const dropDown = useRef();
+  const dropDown = useRef();
 
-  // const dropDownDeselect = (e) => {
-  //   if (dropDown.current.contains(e.target) === false) {
-  //     setDropDownToggle(false);
-  //   }
-  //   return;
-  // };
+  const dropDownDeselect = (e) => {
+    if (dropDown.current.contains(e.target) === false) {
+      setDropDownToggle(false);
+    }
+    e.preventDefault();
+    return;
+  };
 
-  // useEffect(() => {
-  //   document.addEventListener("mousedown", dropDownDeselect);
-  //   return () => {
-  //     document.removeEventListener("mousedown", dropDownDeselect);
-  //   };
-  // }, []);
+  useEffect(() => {
+    document.addEventListener("mousedown", dropDownDeselect);
+    return () => {
+      document.removeEventListener("mousedown", dropDownDeselect);
+    };
+  }, []);
 
   const setFilter = (e) => {
     console.log(e.currentTarget.dataset.filter);
@@ -29,7 +30,7 @@ const Filterselect = ({ filterName, filterItems, styleDropDown }) => {
 
   return (
     <div>
-      <div className="filterContainer" /*ref={dropDown}*/>
+      <div className="filterContainer">
         <p>{filterName}</p>
         <button onClick={filterBtnClick}>
           {selectFilter}
@@ -45,6 +46,7 @@ const Filterselect = ({ filterName, filterItems, styleDropDown }) => {
             ? `filterDropDown ${styleDropDown}`
             : `hidden filterDropDown ${styleDropDown}`
         }
+        ref={dropDown}
       >
         {filterItems.map((item) => (
           <button
