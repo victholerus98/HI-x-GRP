@@ -1,31 +1,7 @@
 import React, { useState } from "react";
 import "./styles/searchbar.scss";
 
-const Searchbar = ({ data, setData, defaultData }) => {
-  const [searchTerm, setSearchTerm] = useState("");
-
-  let wordMatch = 0;
-  const handleSearch = () => {
-    const activeData = data.length === 0 ? defaultData : data;
-    //ActiveData can be the thing that breaks all the other functions
-
-    const results = activeData.filter((item) => {
-      if (item.NameOfInitiative.includes(searchTerm)) {
-        wordMatch++;
-      }
-      if (item.Summary.includes(searchTerm)) {
-        wordMatch++;
-      }
-      return wordMatch;
-    });
-
-    if (searchTerm.length > 0) {
-      setData(results);
-    } else {
-      setData(defaultData);
-    }
-  };
-
+const Searchbar = ({ searchTerm, setSearchTerm, handleSearch }) => {
   const handleChange = (event) => {
     setSearchTerm(event.target.value);
     if (event.key === "Enter") handleSearch();
