@@ -1,31 +1,49 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./styles/filterselect.scss";
 
-const Filterselect = ({ filterName, filterItems, styleDropDown }) => {
+const Filterselect = ({
+  filterName,
+  filterItems,
+  styleDropDown,
+  filtertype,
+  data,
+  setData,
+  defaultData,
+}) => {
   const [dropDownToggle, setDropDownToggle] = useState(false);
   const [selectFilter, setSelectFilter] = useState("All");
 
   const filterBtnClick = () => setDropDownToggle(!dropDownToggle);
-  const dropDown = useRef();
-
-  const dropDownDeselect = (e) => {
-    if (dropDown.current.contains(e.target) === false) {
-      setDropDownToggle(false);
-    }
-    e.preventDefault();
-    return;
-  };
 
   useEffect(() => {
-    document.addEventListener("mousedown", dropDownDeselect);
-    return () => {
-      document.removeEventListener("mousedown", dropDownDeselect);
-    };
-  }, []);
+    const filteredData = data.filter((item) => {
+      console.log(item[filtertype] === selectFilter);
+      return item[filtertype] === selectFilter;
+    });
+
+    if (filteredData.length) setData(filteredData);
+  }, [selectFilter]);
+
+  // const dropDown = useRef();
+
+  // const dropDownDeselect = (e) => {
+  //   if (dropDown.current.contains(e.target) === false) {
+  //     setDropDownToggle(false);
+  //   }
+  //   e.preventDefault();
+  //   return;
+  // };
+
+  // useEffect(() => {
+  //   document.addEventListener("mousedown", dropDownDeselect);
+  //   return () => {
+  //     document.removeEventListener("mousedown", dropDownDeselect);
+  //   };
+  // }, []);
 
   const setFilter = (e) => {
-    console.log(e.currentTarget.dataset.filter);
     setSelectFilter(e.currentTarget.dataset.filter);
+    setDropDownToggle(false);
   };
 
   return (
@@ -46,7 +64,7 @@ const Filterselect = ({ filterName, filterItems, styleDropDown }) => {
             ? `filterDropDown ${styleDropDown}`
             : `hidden filterDropDown ${styleDropDown}`
         }
-        ref={dropDown}
+        // ref={dropDown}
       >
         {filterItems.map((item) => (
           <button

@@ -6,7 +6,7 @@ const typeItems = [
   "All",
   "Fund and financing facilities",
   "Networks, alliances & partnership",
-  "Organisations",
+  "Organisation",
   "Programmes & projects",
 ];
 const geoItems = [
@@ -22,18 +22,26 @@ const geoItems = [
   "Other (e.g Europe NA)",
 ];
 
-const Filter = () => {
+const Filter = ({ data, setData, defaultData }) => {
   return (
     <div className="filter">
       <Filterselect
         filterName="Type"
         filterItems={typeItems}
         styleDropDown="typeDisplacement"
+        filtertype="Type"
+        data={data}
+        setData={setData}
+        defaultData={defaultData}
       />
       <Filterselect
         filterName="Geographic Focus"
         filterItems={geoItems}
         styleDropDown="geoDisplacement"
+        filtertype="MainGeographicFocus"
+        data={data}
+        setData={setData}
+        defaultData={defaultData}
       />
     </div>
   );

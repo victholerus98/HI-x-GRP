@@ -10,7 +10,7 @@ const Search = ({ data, setData, defaultData }) => {
   return (
     <div>
       <div className="search">
-        <Filter />
+        <Filter data={data} setData={setData} defaultData={defaultData} />
         <Searchbar data={data} setData={setData} defaultData={defaultData} />
       </div>
       <hr className="hrBlue" />
