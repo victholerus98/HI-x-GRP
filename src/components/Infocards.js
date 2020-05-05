@@ -1,7 +1,7 @@
 import React from "react"
 import "./styles/infocards.scss"
 
-const Infocards = ({copy1, title, copy2}) => {
+const Infocards = ({copy1, title, copy2, linkImg}) => {
   return (
     <div className="infoCards">
       <div className="outerContainer">
@@ -11,6 +11,7 @@ const Infocards = ({copy1, title, copy2}) => {
           <p>{copy1}</p>
           <h1>{title}</h1>
           <p>{copy2}</p>
+          <div>{linkImg}</div>
         </div>
       </div>
     </div>
