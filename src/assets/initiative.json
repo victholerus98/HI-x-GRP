@@ -14,9 +14,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/www.a2rinitiative.org"
   },
   {
@@ -34,9 +34,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": null
   },
   {
@@ -54,9 +54,9 @@
     "KnowledgeAndlearning": null,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": null
   },
   {
@@ -74,9 +74,9 @@
     "KnowledgeAndlearning": null,
     "FinanceAndBudgets": 1,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": null
   },
   {
@@ -94,9 +94,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": 1,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": null
   },
   {
@@ -114,9 +114,9 @@
     "KnowledgeAndlearning": null,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/www.fao.org"
   },
   {
@@ -134,9 +134,9 @@
     "KnowledgeAndlearning": null,
     "FinanceAndBudgets": 1,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/www.cjrfund.org"
   },
   {
@@ -154,9 +154,9 @@
     "KnowledgeAndlearning": null,
     "FinanceAndBudgets": 1,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/www.climatefinancelab.org"
   },
   {
@@ -174,9 +174,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": null
   },
   {
@@ -194,9 +194,9 @@
     "KnowledgeAndlearning": null,
     "FinanceAndBudgets": 1,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/huairou.org"
   },
   {
@@ -214,9 +214,9 @@
     "KnowledgeAndlearning": null,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": 1,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/www.wfp.org"
   },
   {
@@ -234,9 +234,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": 1,
-    "ActiveOnCOVID-19": 1,
-    "DescriptionOnCOVID-19": "GRP is working with it's partners to accelerate peer-to-peer learning about what community resilience tactics are working in the face of COVID-19.",
-    "HyperlinkToCOVID-19": "http://www.globalresiliencepartnership.org/news/2020/04/03/building-community-resilience-in-the-face-of-covid-19/",
+    "ActiveOnCovid": 1,
+    "DescriptionOnCOVID": "GRP is working with it's partners to accelerate peer-to-peer learning about what community resilience tactics are working in the face of COVID-19.",
+    "HyperlinkToCOVID": "http://www.globalresiliencepartnership.org/news/2020/04/03/building-community-resilience-in-the-face-of-covid-19/",
     "logo": "https://logo.clearbit.com/www.globalresiliencepartnership.org"
   },
   {
@@ -254,9 +254,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": 1,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/www.insuresilience.org"
   },
   {
@@ -274,9 +274,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": 1,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/ifad-un.blogspot.com"
   },
   {
@@ -294,9 +294,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": 1,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/www.partnersforresilience.nl"
   },
   {
@@ -314,9 +314,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 1,
-    "DescriptionOnCOVID-19": "Held a webinar to come up with various innovations as active response to respond to the Coronavirus pandemic. Some innovations included: Collaboration to develop a low cost ventilator and affordable, re-usable Hazmat Suits for local infection prevention.",
-    "HyperlinkToCOVID-19": "http://www.ranlab.org/14311-2",
+    "ActiveOnCovid": 1,
+    "DescriptionOnCOVID": "Held a webinar to come up with various innovations as active response to respond to the Coronavirus pandemic. Some innovations included: Collaboration to develop a low cost ventilator and affordable, re-usable Hazmat Suits for local infection prevention.",
+    "HyperlinkToCOVID": "http://www.ranlab.org/14311-2",
     "logo": "https://logo.clearbit.com/www.ranlab.org"
   },
   {
@@ -334,9 +334,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/www.resalliance.org"
   },
   {
@@ -354,9 +354,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/www.measuringresilience.org"
   },
   {
@@ -374,9 +374,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/www.100resilientcities.org"
   },
   {
@@ -394,9 +394,9 @@
     "KnowledgeAndlearning": null,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": -88,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": -88,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": null
   },
   {
@@ -414,9 +414,9 @@
     "KnowledgeAndlearning": null,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/www.ifad.org"
   },
   {
@@ -434,9 +434,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": 1,
     "PracticeAndInnovation": 1,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/www.adaptation-fund.org"
   },
   {
@@ -454,9 +454,9 @@
     "KnowledgeAndlearning": null,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": 1,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/www.aaainitiative.org"
   },
   {
@@ -474,9 +474,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": 1,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/careclimatechange.org"
   },
   {
@@ -494,9 +494,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": null
   },
   {
@@ -514,9 +514,9 @@
     "KnowledgeAndlearning": null,
     "FinanceAndBudgets": 1,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/www.ndf.fi"
   },
   {
@@ -534,9 +534,9 @@
     "KnowledgeAndlearning": null,
     "FinanceAndBudgets": 1,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 1,
-    "DescriptionOnCOVID-19": "The Africa Risk Capacity is undertaking an urgent exercise to model the potential impact of Covid-19 on Africa to inform and guide member states",
-    "HyperlinkToCOVID-19": "https://www.africanriskcapacity.org/wp-content/uploads/2020/03/ARC-OE-Coronavirus-Position-Paper_March2020.pdf",
+    "ActiveOnCovid": 1,
+    "DescriptionOnCOVID": "The Africa Risk Capacity is undertaking an urgent exercise to model the potential impact of Covid-19 on Africa to inform and guide member states",
+    "HyperlinkToCOVID": "https://www.africanriskcapacity.org/wp-content/uploads/2020/03/ARC-OE-Coronavirus-Position-Paper_March2020.pdf",
     "logo": "https://logo.clearbit.com/www.africanriskcapacity.org"
   },
   {
@@ -554,9 +554,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": 1,
     "PracticeAndInnovation": 1,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": null
   },
   {
@@ -574,9 +574,9 @@
     "KnowledgeAndlearning": null,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": null
   },
   {
@@ -594,9 +594,9 @@
     "KnowledgeAndlearning": null,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": 1,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/alliance4water.org"
   },
   {
@@ -614,9 +614,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/a4ws.org"
   },
   {
@@ -634,9 +634,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": null
   },
   {
@@ -654,9 +654,9 @@
     "KnowledgeAndlearning": null,
     "FinanceAndBudgets": 1,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/www.preventionweb.net"
   },
   {
@@ -674,9 +674,9 @@
     "KnowledgeAndlearning": null,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": null
   },
   {
@@ -694,9 +694,9 @@
     "KnowledgeAndlearning": null,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": null
   },
   {
@@ -714,9 +714,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 1,
-    "DescriptionOnCOVID-19": "C40 are working to use connections built up during C40’s 15-year history to help cities respond to this crisis. For example, C40’s Food Systems Network has been organising webinars, calls and group texts to support information exchange on plans for feeding people during an outbreak. Cities in C40’s waste networks are sharing their experiences of how they are managing waste collection and treatment during the COVID-19 crisis. ",
-    "HyperlinkToCOVID-19": "https://www.c40.org/press_releases/our-mission-continues-statement-from-mark-watts-on-the-covid-19-pandemic",
+    "ActiveOnCovid": 1,
+    "DescriptionOnCOVID": "C40 are working to use connections built up during C40’s 15-year history to help cities respond to this crisis. For example, C40’s Food Systems Network has been organising webinars, calls and group texts to support information exchange on plans for feeding people during an outbreak. Cities in C40’s waste networks are sharing their experiences of how they are managing waste collection and treatment during the COVID-19 crisis. ",
+    "HyperlinkToCOVID": "https://www.c40.org/press_releases/our-mission-continues-statement-from-mark-watts-on-the-covid-19-pandemic",
     "logo": "https://logo.clearbit.com/www.c40.org"
   },
   {
@@ -734,9 +734,9 @@
     "KnowledgeAndlearning": null,
     "FinanceAndBudgets": 1,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/www.ccrif.org"
   },
   {
@@ -754,9 +754,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/www.caribbeanclimate.bz"
   },
   {
@@ -774,9 +774,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/rcc.cimh.edu.bb"
   },
   {
@@ -794,9 +794,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": null
   },
   {
@@ -814,9 +814,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": null
   },
   {
@@ -834,9 +834,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 1,
-    "DescriptionOnCOVID-19": "Published articles/blogs on the way forward during the COVID-19 pandemic.",
-    "HyperlinkToCOVID-19": "https://www.disasterprotection.org/latest-news/covid-19-caught-the-world-off-guard-pandemics-must-never-surprise-us-again \n\n\nhttps://www.disasterprotection.org/latest-news/at-every-stage-acting-early-pays\n",
+    "ActiveOnCovid": 1,
+    "DescriptionOnCOVID": "Published articles/blogs on the way forward during the COVID-19 pandemic.",
+    "HyperlinkToCOVID": "https://www.disasterprotection.org/latest-news/covid-19-caught-the-world-off-guard-pandemics-must-never-surprise-us-again \n\n\nhttps://www.disasterprotection.org/latest-news/at-every-stage-acting-early-pays\n",
     "logo": "https://logo.clearbit.com/www.disasterprotection.org"
   },
   {
@@ -854,9 +854,9 @@
     "KnowledgeAndlearning": null,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": 1,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/www.cilss.int"
   },
   {
@@ -874,9 +874,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": 1,
-    "ActiveOnCOVID-19": 1,
-    "DescriptionOnCOVID-19": "Cities Alliance participated in a webinar on the impact of COVID-19 on informal settlements and social housing. In this webinar, responses to the crisis and emergency generated by COVID-19 were identified, and inputs were collected for public action in the precarious settlements of Central America and social housing policy, with the perspective of promoting a structural change in the context of inequalities and segregation in cities. ",
-    "HyperlinkToCOVID-19": "https://www.citiesalliance.org/newsroom/news/cities-alliance-news/covid-19-informal-settlements-and-social-housing",
+    "ActiveOnCovid": 1,
+    "DescriptionOnCOVID": "Cities Alliance participated in a webinar on the impact of COVID-19 on informal settlements and social housing. In this webinar, responses to the crisis and emergency generated by COVID-19 were identified, and inputs were collected for public action in the precarious settlements of Central America and social housing policy, with the perspective of promoting a structural change in the context of inequalities and segregation in cities. ",
+    "HyperlinkToCOVID": "https://www.citiesalliance.org/newsroom/news/cities-alliance-news/covid-19-informal-settlements-and-social-housing",
     "logo": "https://logo.clearbit.com/www.citiesalliance.org"
   },
   {
@@ -894,9 +894,9 @@
     "KnowledgeAndlearning": null,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": 1,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": null
   },
   {
@@ -914,9 +914,9 @@
     "KnowledgeAndlearning": null,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": 1,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/www.climdev-africa.org"
   },
   {
@@ -934,9 +934,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": 1,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/www.climatenetwork.org"
   },
   {
@@ -954,9 +954,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": null
   },
   {
@@ -974,9 +974,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": 1,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/www.wfp.org"
   },
   {
@@ -994,9 +994,9 @@
     "KnowledgeAndlearning": null,
     "FinanceAndBudgets": 1,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/www.climatebonds.net"
   },
   {
@@ -1014,9 +1014,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": 1,
-    "ActiveOnCOVID-19": 1,
-    "DescriptionOnCOVID-19": "Opinion blog articles on various responses to COVID-19 and future expectations.",
-    "HyperlinkToCOVID-19": "https://cdkn.org/2020/04/feature-transitioning-to-a-better-global-new-normal/?loclang=en_gb \n\nhttps://cdkn.org/2020/04/feature-how-business-is-responding-to-covid-19-in-south-africas-poorest-urban-communities/?loclang=en_gb\n\nhttps://cdkn.org/2020/03/opinion-imagining-a-different-better-future/?loclang=en_gb\n\n",
+    "ActiveOnCovid": 1,
+    "DescriptionOnCOVID": "Opinion blog articles on various responses to COVID-19 and future expectations.",
+    "HyperlinkToCOVID": "https://cdkn.org/2020/04/feature-transitioning-to-a-better-global-new-normal/?loclang=en_gb \n\nhttps://cdkn.org/2020/04/feature-how-business-is-responding-to-covid-19-in-south-africas-poorest-urban-communities/?loclang=en_gb\n\nhttps://cdkn.org/2020/03/opinion-imagining-a-different-better-future/?loclang=en_gb\n\n",
     "logo": null
   },
   {
@@ -1034,9 +1034,9 @@
     "KnowledgeAndlearning": null,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": 1,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/www.worldbank.org"
   },
   {
@@ -1054,9 +1054,9 @@
     "KnowledgeAndlearning": null,
     "FinanceAndBudgets": 1,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": null
   },
   {
@@ -1074,9 +1074,9 @@
     "KnowledgeAndlearning": null,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": 1,
-    "ActiveOnCOVID-19": 1,
-    "DescriptionOnCOVID-19": "Corona Response hub",
-    "HyperlinkToCOVID-19": "https://www.climate-kic.org/covid-19-response-hub/",
+    "ActiveOnCovid": 1,
+    "DescriptionOnCOVID": "Corona Response hub",
+    "HyperlinkToCOVID": "https://www.climate-kic.org/covid-19-response-hub/",
     "logo": "https://logo.clearbit.com/www.climate-kic.org"
   },
   {
@@ -1094,9 +1094,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": null
   },
   {
@@ -1114,9 +1114,9 @@
     "KnowledgeAndlearning": null,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": null
   },
   {
@@ -1134,9 +1134,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/www.unisdr.org"
   },
   {
@@ -1154,9 +1154,9 @@
     "KnowledgeAndlearning": null,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": 1,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/www.crews-initiative.org"
   },
   {
@@ -1174,9 +1174,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": null
   },
   {
@@ -1194,9 +1194,9 @@
     "KnowledgeAndlearning": null,
     "FinanceAndBudgets": 1,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": null
   },
   {
@@ -1214,9 +1214,9 @@
     "KnowledgeAndlearning": null,
     "FinanceAndBudgets": 1,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/www.adaptation-undp.org"
   },
   {
@@ -1234,9 +1234,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": null
   },
   {
@@ -1254,9 +1254,9 @@
     "KnowledgeAndlearning": null,
     "FinanceAndBudgets": 1,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": null
   },
   {
@@ -1274,9 +1274,9 @@
     "KnowledgeAndlearning": null,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/urbantransitions.global"
   },
   {
@@ -1294,9 +1294,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/www.cariaa.net"
   },
   {
@@ -1314,9 +1314,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 1,
-    "DescriptionOnCOVID-19": "Multiple articles on the relationship between Climate Change, COVID-19.",
-    "HyperlinkToCOVID-19": "http://conexioncop.com/onu-el-cambio-climatico-es-mas-mortal-que-el-coronavirus/ \n\nhttp://conexioncop.com/ante-la-pandemia-del-covid-19-y-la-crisis-climatica/ \n\nhttp://conexioncop.com/que-nos-ensena-el-coronavirus-frente-al-cambio-climatico/ \n\nhttp://conexioncop.com/cual-es-la-relacion-entre-el-coronavirus-y-el-manejo-de-los-ecosistemas/ ",
+    "ActiveOnCovid": 1,
+    "DescriptionOnCOVID": "Multiple articles on the relationship between Climate Change, COVID-19.",
+    "HyperlinkToCOVID": "http://conexioncop.com/onu-el-cambio-climatico-es-mas-mortal-que-el-coronavirus/ \n\nhttp://conexioncop.com/ante-la-pandemia-del-covid-19-y-la-crisis-climatica/ \n\nhttp://conexioncop.com/que-nos-ensena-el-coronavirus-frente-al-cambio-climatico/ \n\nhttp://conexioncop.com/cual-es-la-relacion-entre-el-coronavirus-y-el-manejo-de-los-ecosistemas/ ",
     "logo": "https://logo.clearbit.com/conexioncop.com"
   },
   {
@@ -1334,9 +1334,9 @@
     "KnowledgeAndlearning": null,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 1,
-    "DescriptionOnCOVID-19": "News article on COVID-19.",
-    "HyperlinkToCOVID-19": "https://www.convergence.finance/news-and-events/news/dpcDxlUX2UVdIDTt9TjAi/view",
+    "ActiveOnCovid": 1,
+    "DescriptionOnCOVID": "News article on COVID-19.",
+    "HyperlinkToCOVID": "https://www.convergence.finance/news-and-events/news/dpcDxlUX2UVdIDTt9TjAi/view",
     "logo": "https://logo.clearbit.com/convergence.finance"
   },
   {
@@ -1354,9 +1354,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": null
   },
   {
@@ -1374,9 +1374,9 @@
     "KnowledgeAndlearning": null,
     "FinanceAndBudgets": 1,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": null
   },
   {
@@ -1394,9 +1394,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/www.delta-alliance.org"
   },
   {
@@ -1414,9 +1414,9 @@
     "KnowledgeAndlearning": null,
     "FinanceAndBudgets": 1,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/www.gfdrr.org"
   },
   {
@@ -1434,9 +1434,9 @@
     "KnowledgeAndlearning": null,
     "FinanceAndBudgets": 1,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/www.eib.org"
   },
   {
@@ -1454,9 +1454,9 @@
     "KnowledgeAndlearning": null,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": 1,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": null
   },
   {
@@ -1474,9 +1474,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": 1,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": null
   },
   {
@@ -1494,9 +1494,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 1,
-    "DescriptionOnCOVID-19": "Blog articles on responses to COVID 19",
-    "HyperlinkToCOVID-19": "https://floodresilience.net/blogs/covid-19-by-your-side\n\nhttps://floodresilience.net/resources/item/reducing-covid-19-vulnerability-amongst-displaced-populations-and-migrants",
+    "ActiveOnCovid": 1,
+    "DescriptionOnCOVID": "Blog articles on responses to COVID 19",
+    "HyperlinkToCOVID": "https://floodresilience.net/blogs/covid-19-by-your-side\n\nhttps://floodresilience.net/resources/item/reducing-covid-19-vulnerability-amongst-displaced-populations-and-migrants",
     "logo": null
   },
   {
@@ -1514,9 +1514,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 1,
-    "DescriptionOnCOVID-19": "Prepared a call to action to world leaders to encourage urgent action. Food supplies could be massively disrupted due to measures put in place to control the spread of COVID-19.  The number of people suffering from chronic hunger – estimated at well over 800 million before the crisis – could jump dramatically.  Governments, businesses, civil society and international agencies need to take urgent, coordinated action to prevent the COVID pandemic turning into a global food and humanitarian crisis.",
-    "HyperlinkToCOVID-19": "https://www.foodandlandusecoalition.org/a-call-to-action-for-world-leaders/\n\nhttps://www.foodandlandusecoalition.org/category/blog/",
+    "ActiveOnCovid": 1,
+    "DescriptionOnCOVID": "Prepared a call to action to world leaders to encourage urgent action. Food supplies could be massively disrupted due to measures put in place to control the spread of COVID-19.  The number of people suffering from chronic hunger – estimated at well over 800 million before the crisis – could jump dramatically.  Governments, businesses, civil society and international agencies need to take urgent, coordinated action to prevent the COVID pandemic turning into a global food and humanitarian crisis.",
+    "HyperlinkToCOVID": "https://www.foodandlandusecoalition.org/a-call-to-action-for-world-leaders/\n\nhttps://www.foodandlandusecoalition.org/category/blog/",
     "logo": "https://logo.clearbit.com/www.foodandlandusecoalition.org"
   },
   {
@@ -1534,9 +1534,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 1,
-    "DescriptionOnCOVID-19": "Have created a spotlight on COVID-19 with the latest data, analyses and research on the impact of the COVID-19 pandemic on food security from members of the global data community. ",
-    "HyperlinkToCOVID-19": "https://www.fsinplatform.org/news",
+    "ActiveOnCovid": 1,
+    "DescriptionOnCOVID": "Have created a spotlight on COVID-19 with the latest data, analyses and research on the impact of the COVID-19 pandemic on food security from members of the global data community. ",
+    "HyperlinkToCOVID": "https://www.fsinplatform.org/news",
     "logo": null
   },
   {
@@ -1554,9 +1554,9 @@
     "KnowledgeAndlearning": null,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/www.iucn.org"
   },
   {
@@ -1574,9 +1574,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": 1,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/www.avina.net"
   },
   {
@@ -1594,9 +1594,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": null
   },
   {
@@ -1614,9 +1614,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": 1,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/garigroup.com"
   },
   {
@@ -1634,9 +1634,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/web.unep.org"
   },
   {
@@ -1654,9 +1654,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/www.usaid.gov"
   },
   {
@@ -1674,9 +1674,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/www.globalabc.org"
   },
   {
@@ -1694,9 +1694,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": 1,
-    "ActiveOnCOVID-19": 1,
-    "DescriptionOnCOVID-19": "The Global Alliance for Climate-Smart Agriculture (GACSA) Calls for Coordinated Approaches Amid COVID-19",
-    "HyperlinkToCOVID-19": "http://www.fao.org/fileadmin/user_upload/gacsa/NEW_GACSA_-_COVID19_Response.pdf",
+    "ActiveOnCovid": 1,
+    "DescriptionOnCOVID": "The Global Alliance for Climate-Smart Agriculture (GACSA) Calls for Coordinated Approaches Amid COVID-19",
+    "HyperlinkToCOVID": "http://www.fao.org/fileadmin/user_upload/gacsa/NEW_GACSA_-_COVID19_Response.pdf",
     "logo": "https://logo.clearbit.com/www.fao.org"
   },
   {
@@ -1714,9 +1714,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": null
   },
   {
@@ -1734,9 +1734,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": null
   },
   {
@@ -1754,9 +1754,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": 1,
-    "ActiveOnCOVID-19": 1,
-    "DescriptionOnCOVID-19": "Blog articles on responses to COVID 19",
-    "HyperlinkToCOVID-19": "https://gca.org/solutions",
+    "ActiveOnCovid": 1,
+    "DescriptionOnCOVID": "Blog articles on responses to COVID 19",
+    "HyperlinkToCOVID": "https://gca.org/solutions",
     "logo": "https://logo.clearbit.com/gca.org"
   },
   {
@@ -1774,9 +1774,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": null
   },
   {
@@ -1794,9 +1794,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": 1,
-    "ActiveOnCOVID-19": 1,
-    "DescriptionOnCOVID-19": "Blogs on: Effect of Coronavirus on GCCA+ countries and a ray of hope from Italy: coronavirus and climate",
-    "HyperlinkToCOVID-19": "https://www.gcca.eu/stories/what-does-coronavirus-mean-gcca-countries\n\nhttps://www.gcca.eu/stories/ray-hope-italy-coronavirus-and-climate",
+    "ActiveOnCovid": 1,
+    "DescriptionOnCOVID": "Blogs on: Effect of Coronavirus on GCCA+ countries and a ray of hope from Italy: coronavirus and climate",
+    "HyperlinkToCOVID": "https://www.gcca.eu/stories/what-does-coronavirus-mean-gcca-countries\n\nhttps://www.gcca.eu/stories/ray-hope-italy-coronavirus-and-climate",
     "logo": null
   },
   {
@@ -1814,9 +1814,9 @@
     "KnowledgeAndlearning": null,
     "FinanceAndBudgets": 1,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": null
   },
   {
@@ -1834,9 +1834,9 @@
     "KnowledgeAndlearning": null,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 1,
-    "DescriptionOnCOVID-19": "Article on climate change lessons from COVID 19 with CNN",
-    "HyperlinkToCOVID-19": "https://edition.cnn.com/2020/04/09/opinions/climate-change-lessons-from-covid-19-ban-verkooijen/index.html",
+    "ActiveOnCovid": 1,
+    "DescriptionOnCOVID": "Article on climate change lessons from COVID 19 with CNN",
+    "HyperlinkToCOVID": "https://edition.cnn.com/2020/04/09/opinions/climate-change-lessons-from-covid-19-ban-verkooijen/index.html",
     "logo": "https://logo.clearbit.com/gca.org"
   },
   {
@@ -1854,9 +1854,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": 1,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 1,
-    "DescriptionOnCOVID-19": "Coronavirus Speaker Series: Sharing Knowledge to Respond with Resilience is a weekly session organized by the Global Resilient Cities Network and the World Bank as a knowledge sharing session for cities in response to the rapidly evolving COVID-19 situation.",
-    "HyperlinkToCOVID-19": "https://medium.com/@resilientcitiesnetwork/coronavirus-speaker-series-sharing-knowledge-to-respond-with-resilience-5a8787a1eef5",
+    "ActiveOnCovid": 1,
+    "DescriptionOnCOVID": "Coronavirus Speaker Series: Sharing Knowledge to Respond with Resilience is a weekly session organized by the Global Resilient Cities Network and the World Bank as a knowledge sharing session for cities in response to the rapidly evolving COVID-19 situation.",
+    "HyperlinkToCOVID": "https://medium.com/@resilientcitiesnetwork/coronavirus-speaker-series-sharing-knowledge-to-respond-with-resilience-5a8787a1eef5",
     "logo": "https://logo.clearbit.com/www.gfdrr.org"
   },
   {
@@ -1874,9 +1874,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": null
   },
   {
@@ -1894,9 +1894,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 1,
-    "DescriptionOnCOVID-19": "GGGI has started to adapt its programming to green stimulus and recovery packages in the face of COVID-19.",
-    "HyperlinkToCOVID-19": "https://gggi.org/site/assets/uploads/2020/04/Update-GGGI-COVID-April-23-2020-Final.pdf",
+    "ActiveOnCovid": 1,
+    "DescriptionOnCOVID": "GGGI has started to adapt its programming to green stimulus and recovery packages in the face of COVID-19.",
+    "HyperlinkToCOVID": "https://gggi.org/site/assets/uploads/2020/04/Update-GGGI-COVID-April-23-2020-Final.pdf",
     "logo": "https://logo.clearbit.com/gggi.org"
   },
   {
@@ -1914,9 +1914,9 @@
     "KnowledgeAndlearning": null,
     "FinanceAndBudgets": 1,
     "PracticeAndInnovation": 1,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/climatefinancelab.org"
   },
   {
@@ -1934,9 +1934,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/glispa.org"
   },
   {
@@ -1954,9 +1954,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 1,
-    "DescriptionOnCOVID-19": "Multiple articles on the relationship between Climate Change and COVID-19.",
-    "HyperlinkToCOVID-19": "https://news.globallandscapesforum.org/",
+    "ActiveOnCovid": 1,
+    "DescriptionOnCOVID": "Multiple articles on the relationship between Climate Change and COVID-19.",
+    "HyperlinkToCOVID": "https://news.globallandscapesforum.org/",
     "logo": "https://logo.clearbit.com/www.landscapes.org"
   },
   {
@@ -1974,9 +1974,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": null
   },
   {
@@ -1994,9 +1994,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/www.globalpeatlands.org"
   },
   {
@@ -2014,9 +2014,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": null
   },
   {
@@ -2034,9 +2034,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/www.wri.org"
   },
   {
@@ -2054,9 +2054,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/www.globalwaterforum.org"
   },
   {
@@ -2074,9 +2074,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 1,
-    "DescriptionOnCOVID-19": "During these difficult times, GWP’s unique global network and competencies are and will remain in keeping attention on the water security agenda.",
-    "HyperlinkToCOVID-19": "https://www.gwp.org/en/About/covid-19/how-gwp-responds-to-the-covid-19-crisis/",
+    "ActiveOnCovid": 1,
+    "DescriptionOnCOVID": "During these difficult times, GWP’s unique global network and competencies are and will remain in keeping attention on the water security agenda.",
+    "HyperlinkToCOVID": "https://www.gwp.org/en/About/covid-19/how-gwp-responds-to-the-covid-19-crisis/",
     "logo": "https://logo.clearbit.com/www.gwp.org"
   },
   {
@@ -2094,9 +2094,9 @@
     "KnowledgeAndlearning": null,
     "FinanceAndBudgets": 1,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 1,
-    "DescriptionOnCOVID-19": "The Green Climate Fund (GCF) is committed to ensuring that the world that emerges from the pandemic is one that is more aligned on a climate smart path.",
-    "HyperlinkToCOVID-19": "https://www.greenclimate.fund/news/responding-impacts-covid-19-global-pandemic-interlinkages-between-people-planet-and-prosperity",
+    "ActiveOnCovid": 1,
+    "DescriptionOnCOVID": "The Green Climate Fund (GCF) is committed to ensuring that the world that emerges from the pandemic is one that is more aligned on a climate smart path.",
+    "HyperlinkToCOVID": "https://www.greenclimate.fund/news/responding-impacts-covid-19-global-pandemic-interlinkages-between-people-planet-and-prosperity",
     "logo": "https://logo.clearbit.com/www.greenclimate.fund"
   },
   {
@@ -2114,9 +2114,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/www.stockholmresilience.org"
   },
   {
@@ -2134,9 +2134,9 @@
     "KnowledgeAndlearning": null,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/www.oceanpanel.org"
   },
   {
@@ -2154,9 +2154,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 1,
-    "DescriptionOnCOVID-19": "Newsletter with message from ICLEI's secretary general, news from ICLEI network and opportunities for aaction including webinars and workshops held during March. ",
-    "HyperlinkToCOVID-19": "https://mailchi.mp/iclei/inews-how-covid-19-is-affecting-city-sustainability-officers-and-more-982085?e=27bd672881",
+    "ActiveOnCovid": 1,
+    "DescriptionOnCOVID": "Newsletter with message from ICLEI's secretary general, news from ICLEI network and opportunities for aaction including webinars and workshops held during March. ",
+    "HyperlinkToCOVID": "https://mailchi.mp/iclei/inews-how-covid-19-is-affecting-city-sustainability-officers-and-more-982085?e=27bd672881",
     "logo": "https://logo.clearbit.com/www.iclei.org"
   },
   {
@@ -2174,9 +2174,9 @@
     "KnowledgeAndlearning": null,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 1,
-    "DescriptionOnCOVID-19": "Under UN Women the main host for the initiative, multiple blogs have been written regarding the role of women during the pandemic as well as it's effect on women.",
-    "HyperlinkToCOVID-19": "https://www.unwomen.org/en/news/stories",
+    "ActiveOnCovid": 1,
+    "DescriptionOnCOVID": "Under UN Women the main host for the initiative, multiple blogs have been written regarding the role of women during the pandemic as well as it's effect on women.",
+    "HyperlinkToCOVID": "https://www.unwomen.org/en/news/stories",
     "logo": null
   },
   {
@@ -2194,9 +2194,9 @@
     "KnowledgeAndlearning": null,
     "FinanceAndBudgets": 1,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/theidf.org"
   },
   {
@@ -2214,9 +2214,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": -88,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": -88,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": null
   },
   {
@@ -2234,9 +2234,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": -88,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": -88,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": null
   },
   {
@@ -2254,9 +2254,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/www.jpi-climate.eu"
   },
   {
@@ -2274,9 +2274,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 1,
-    "DescriptionOnCOVID-19": "The main host FAO response to COVID 19: FAO has implemented an array of tools to support policy analyses and assess the impact of COVID-19 on on food and agriculture, value chains, food prices, food security across the globe.",
-    "HyperlinkToCOVID-19": "http://www.fao.org/2019-ncov/en/",
+    "ActiveOnCovid": 1,
+    "DescriptionOnCOVID": "The main host FAO response to COVID 19: FAO has implemented an array of tools to support policy analyses and assess the impact of COVID-19 on on food and agriculture, value chains, food prices, food security across the globe.",
+    "HyperlinkToCOVID": "http://www.fao.org/2019-ncov/en/",
     "logo": "https://logo.clearbit.com/www.fao.org"
   },
   {
@@ -2294,9 +2294,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": null
   },
   {
@@ -2314,9 +2314,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/landportal.org"
   },
   {
@@ -2334,9 +2334,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 1,
-    "DescriptionOnCOVID-19": "Multiple articles on the relationship between Climate Change, COVID-19.",
-    "HyperlinkToCOVID-19": "https://latinclima.org/articulos/ante-la-pandemia-del-covid-19-y-la-crisis-climatica\n\nhttps://latinclima.org/articulos/que-tiene-que-ver-el-covid-19-con-la-crisis-climatica-y-ambiental\n\n",
+    "ActiveOnCovid": 1,
+    "DescriptionOnCOVID": "Multiple articles on the relationship between Climate Change, COVID-19.",
+    "HyperlinkToCOVID": "https://latinclima.org/articulos/ante-la-pandemia-del-covid-19-y-la-crisis-climatica\n\nhttps://latinclima.org/articulos/que-tiene-que-ver-el-covid-19-con-la-crisis-climatica-y-ambiental\n\n",
     "logo": "https://logo.clearbit.com/latinclima.org"
   },
   {
@@ -2354,9 +2354,9 @@
     "KnowledgeAndlearning": null,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/www.ldc-climate.org"
   },
   {
@@ -2374,9 +2374,9 @@
     "KnowledgeAndlearning": null,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": null
   },
   {
@@ -2394,9 +2394,9 @@
     "KnowledgeAndlearning": null,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": null
   },
   {
@@ -2414,9 +2414,9 @@
     "KnowledgeAndlearning": null,
     "FinanceAndBudgets": 1,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": null
   },
   {
@@ -2434,9 +2434,9 @@
     "KnowledgeAndlearning": null,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 1,
-    "DescriptionOnCOVID-19": "The main host GEF has created a COVID-19 updates page on it's website that is regularly updated.",
-    "HyperlinkToCOVID-19": "https://www.thegef.org/news/covid-19-updates-gef-partnership",
+    "ActiveOnCovid": 1,
+    "DescriptionOnCOVID": "The main host GEF has created a COVID-19 updates page on it's website that is regularly updated.",
+    "HyperlinkToCOVID": "https://www.thegef.org/news/covid-19-updates-gef-partnership",
     "logo": "https://logo.clearbit.com/www.thegef.org"
   },
   {
@@ -2454,9 +2454,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": null
   },
   {
@@ -2474,9 +2474,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 1,
-    "DescriptionOnCOVID-19": "The main host UNFCCC response: In unison with the UN family, while addressing the COVID-19 crisis, UN Climate Change continues its important work. Climate change and COVID-19 are not the same, but what is, is the concept of humanity working towards a common goal for the benefit of all people.",
-    "HyperlinkToCOVID-19": "https://unfccc.int/news/open-letter-by-the-executive-secretary-on-covid-19",
+    "ActiveOnCovid": 1,
+    "DescriptionOnCOVID": "The main host UNFCCC response: In unison with the UN family, while addressing the COVID-19 crisis, UN Climate Change continues its important work. Climate change and COVID-19 are not the same, but what is, is the concept of humanity working towards a common goal for the benefit of all people.",
+    "HyperlinkToCOVID": "https://unfccc.int/news/open-letter-by-the-executive-secretary-on-covid-19",
     "logo": null
   },
   {
@@ -2494,9 +2494,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/www.unisdr.org"
   },
   {
@@ -2514,9 +2514,9 @@
     "KnowledgeAndlearning": null,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": null
   },
   {
@@ -2534,9 +2534,9 @@
     "KnowledgeAndlearning": null,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/napglobalnetwork.org"
   },
   {
@@ -2554,9 +2554,9 @@
     "KnowledgeAndlearning": null,
     "FinanceAndBudgets": 1,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/nature4climate.org"
   },
   {
@@ -2574,9 +2574,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/navclimate.pianc.org"
   },
   {
@@ -2594,9 +2594,9 @@
     "KnowledgeAndlearning": null,
     "FinanceAndBudgets": 1,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 1,
-    "DescriptionOnCOVID-19": "Engaging with leading climate experts for virtual discussion on the COVID-19 recovery and the lessons and implications for climate change.",
-    "HyperlinkToCOVID-19": "https://ndcpartnership.org/news/covid-19-recovery-and-climate-change",
+    "ActiveOnCovid": 1,
+    "DescriptionOnCOVID": "Engaging with leading climate experts for virtual discussion on the COVID-19 recovery and the lessons and implications for climate change.",
+    "HyperlinkToCOVID": "https://ndcpartnership.org/news/covid-19-recovery-and-climate-change",
     "logo": "https://logo.clearbit.com/www.ndcpartnership.org"
   },
   {
@@ -2614,9 +2614,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 1,
-    "DescriptionOnCOVID-19": "Published commentary: A global response to COVID-19 that doesn’t fully support developing countries is no response at all",
-    "HyperlinkToCOVID-19": "http://newclimateeconomy.net/content/commentary-global-response-covid-19-doesn%E2%80%99t-fully-support-developing-countries-no-response",
+    "ActiveOnCovid": 1,
+    "DescriptionOnCOVID": "Published commentary: A global response to COVID-19 that doesn’t fully support developing countries is no response at all",
+    "HyperlinkToCOVID": "http://newclimateeconomy.net/content/commentary-global-response-covid-19-doesn%E2%80%99t-fully-support-developing-countries-no-response",
     "logo": "https://logo.clearbit.com/newclimateeconomy.net"
   },
   {
@@ -2634,9 +2634,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": 1,
     "PracticeAndInnovation": 1,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/www.oceanriskalliance.org"
   },
   {
@@ -2654,9 +2654,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": 1,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/media.ifrc.org"
   },
   {
@@ -2674,9 +2674,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": null
   },
   {
@@ -2694,9 +2694,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": null
   },
   {
@@ -2714,9 +2714,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": null
   },
   {
@@ -2734,9 +2734,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/pedrr.org"
   },
   {
@@ -2754,9 +2754,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/www.unglobalcompact.org"
   },
   {
@@ -2774,9 +2774,9 @@
     "KnowledgeAndlearning": null,
     "FinanceAndBudgets": 1,
     "PracticeAndInnovation": 1,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/www.climateinvestmentfunds.org"
   },
   {
@@ -2794,9 +2794,9 @@
     "KnowledgeAndlearning": null,
     "FinanceAndBudgets": 1,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 1,
-    "DescriptionOnCOVID-19": "The PRI works with signatories to further develop thinking on what the COVID-19 crisis means for investors. ",
-    "HyperlinkToCOVID-19": "https://www.unpri.org/covid-19",
+    "ActiveOnCovid": 1,
+    "DescriptionOnCOVID": "The PRI works with signatories to further develop thinking on what the COVID-19 crisis means for investors. ",
+    "HyperlinkToCOVID": "https://www.unpri.org/covid-19",
     "logo": "https://logo.clearbit.com/www.unpri.org"
   },
   {
@@ -2814,9 +2814,9 @@
     "KnowledgeAndlearning": null,
     "FinanceAndBudgets": 1,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/www.unepfi.org"
   },
   {
@@ -2834,9 +2834,9 @@
     "KnowledgeAndlearning": null,
     "FinanceAndBudgets": 1,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/www.pidg.org"
   },
   {
@@ -2854,9 +2854,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": 1,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/www.wfp.org"
   },
   {
@@ -2874,9 +2874,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/www.rebuildbydesign.org"
   },
   {
@@ -2894,9 +2894,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/www.cambioclimaticoydecisiones.org"
   },
   {
@@ -2914,9 +2914,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 1,
-    "DescriptionOnCOVID-19": "Published: Post-COVID-19 recovery",
-    "HyperlinkToCOVID-19": "http://cambioclimatico-regatta.org/index.php/en/documents-and-tools/category/recuperacion-economica-p",
+    "ActiveOnCovid": 1,
+    "DescriptionOnCOVID": "Published: Post-COVID-19 recovery",
+    "HyperlinkToCOVID": "http://cambioclimatico-regatta.org/index.php/en/documents-and-tools/category/recuperacion-economica-p",
     "logo": "https://logo.clearbit.com/www.cambioclimatico-regatta.org"
   },
   {
@@ -2934,9 +2934,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 1,
-    "DescriptionOnCOVID-19": "Regions4 Secretariat has compiled some of the resources available to date to help regions and other levels of government inform, engage and assess their responses.",
-    "HyperlinkToCOVID-19": "https://www.regions4.org/news/resources-to-address-the-covid-19-crisis/",
+    "ActiveOnCovid": 1,
+    "DescriptionOnCOVID": "Regions4 Secretariat has compiled some of the resources available to date to help regions and other levels of government inform, engage and assess their responses.",
+    "HyperlinkToCOVID": "https://www.regions4.org/news/resources-to-address-the-covid-19-crisis/",
     "logo": null
   },
   {
@@ -2954,9 +2954,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/www.bsr.org"
   },
   {
@@ -2974,9 +2974,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/www.fsnnetwork.org"
   },
   {
@@ -2994,9 +2994,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": null
   },
   {
@@ -3014,9 +3014,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": null
   },
   {
@@ -3034,9 +3034,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": 1,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/www.mangrovesforthefuture.org"
   },
   {
@@ -3054,9 +3054,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": 1,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/www.adaptation-undp.org"
   },
   {
@@ -3074,9 +3074,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/rethink.earth"
   },
   {
@@ -3094,9 +3094,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": 1,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/www.adaptation-undp.org"
   },
   {
@@ -3114,9 +3114,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": 1,
-    "ActiveOnCOVID-19": 1,
-    "DescriptionOnCOVID-19": "Created a knowledge hub that aims to be a resource for all members of the SUN Movement to get informed about COVID-19 developments, at large. It also sheds light on important links between COVID-19 and nutrition, hunger, health and food systems – by bringing together important updates, guidance, articles and opinion pieces, in its initial stage.",
-    "HyperlinkToCOVID-19": "https://scalingupnutrition.org/covid19/",
+    "ActiveOnCovid": 1,
+    "DescriptionOnCOVID": "Created a knowledge hub that aims to be a resource for all members of the SUN Movement to get informed about COVID-19 developments, at large. It also sheds light on important links between COVID-19 and nutrition, hunger, health and food systems – by bringing together important updates, guidance, articles and opinion pieces, in its initial stage.",
+    "HyperlinkToCOVID": "https://scalingupnutrition.org/covid19/",
     "logo": "https://logo.clearbit.com/scalingupnutrition.org"
   },
   {
@@ -3134,9 +3134,9 @@
     "KnowledgeAndlearning": null,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 1,
-    "DescriptionOnCOVID-19": "Adjusted existing programs and launched new initiatives to support the global COVID-19 response.",
-    "HyperlinkToCOVID-19": "https://www.seforall.org/covid-19-response",
+    "ActiveOnCovid": 1,
+    "DescriptionOnCOVID": "Adjusted existing programs and launched new initiatives to support the global COVID-19 response.",
+    "HyperlinkToCOVID": "https://www.seforall.org/covid-19-response",
     "logo": "https://logo.clearbit.com/www.seforall.org"
   },
   {
@@ -3154,9 +3154,9 @@
     "KnowledgeAndlearning": null,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 1,
-    "DescriptionOnCOVID-19": "The main host GEF has created a COVID-19 updates page on it's website that is regularly updated.",
-    "HyperlinkToCOVID-19": "https://www.thegef.org/news/covid-19-updates-gef-partnership",
+    "ActiveOnCovid": 1,
+    "DescriptionOnCOVID": "The main host GEF has created a COVID-19 updates page on it's website that is regularly updated.",
+    "HyperlinkToCOVID": "https://www.thegef.org/news/covid-19-updates-gef-partnership",
     "logo": "https://logo.clearbit.com/www.thegef.org"
   },
   {
@@ -3174,9 +3174,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 1,
-    "DescriptionOnCOVID-19": "Created Start Fund COVID-19: The new fund is part of the Start Network’s existing funding mechanism, the Start Fund, and provides rapid funding for small to medium responses at the local level, to address neglected or underfunded aspects of the broader COVID-19 crisis, with a focus on neglected communities and geographies and early action and anticipation",
-    "HyperlinkToCOVID-19": "https://startnetwork.org/covid-19",
+    "ActiveOnCovid": 1,
+    "DescriptionOnCOVID": "Created Start Fund COVID-19: The new fund is part of the Start Network’s existing funding mechanism, the Start Fund, and provides rapid funding for small to medium responses at the local level, to address neglected or underfunded aspects of the broader COVID-19 crisis, with a focus on neglected communities and geographies and early action and anticipation",
+    "HyperlinkToCOVID": "https://startnetwork.org/covid-19",
     "logo": "https://logo.clearbit.com/startnetwork.org"
   },
   {
@@ -3194,9 +3194,9 @@
     "KnowledgeAndlearning": null,
     "FinanceAndBudgets": 1,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/www.v-20.org"
   },
   {
@@ -3214,9 +3214,9 @@
     "KnowledgeAndlearning": null,
     "FinanceAndBudgets": 1,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/www.fsb-tcfd.org"
   },
   {
@@ -3234,9 +3234,9 @@
     "KnowledgeAndlearning": null,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/thetenurefacility.org"
   },
   {
@@ -3254,9 +3254,9 @@
     "KnowledgeAndlearning": null,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": null
   },
   {
@@ -3274,9 +3274,9 @@
     "KnowledgeAndlearning": null,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 1,
-    "DescriptionOnCOVID-19": "Oxfam is gearing up its entire humanitarian aid delivery system to help the poorest and most marginalized people as they face the rising tide of infections ahead.",
-    "HyperlinkToCOVID-19": "https://www.oxfam.org/en/oxfams-response-coronavirus",
+    "ActiveOnCovid": 1,
+    "DescriptionOnCOVID": "Oxfam is gearing up its entire humanitarian aid delivery system to help the poorest and most marginalized people as they face the rising tide of infections ahead.",
+    "HyperlinkToCOVID": "https://www.oxfam.org/en/oxfams-response-coronavirus",
     "logo": "https://logo.clearbit.com/www.sdhsprogram.org"
   },
   {
@@ -3294,9 +3294,9 @@
     "KnowledgeAndlearning": null,
     "FinanceAndBudgets": 1,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 1,
-    "DescriptionOnCOVID-19": "UNEP Finance Initiative is providing a platform for banks to exchange experiences and ideas as they take action to support society and businesses in this unprecedented crisis.",
-    "HyperlinkToCOVID-19": "https://www.unepfi.org/banking/bankingprinciples/responsible-banking-in-the-covid-19-crisis/",
+    "ActiveOnCovid": 1,
+    "DescriptionOnCOVID": "UNEP Finance Initiative is providing a platform for banks to exchange experiences and ideas as they take action to support society and businesses in this unprecedented crisis.",
+    "HyperlinkToCOVID": "https://www.unepfi.org/banking/bankingprinciples/responsible-banking-in-the-covid-19-crisis/",
     "logo": "https://logo.clearbit.com/www.unepfi.org"
   },
   {
@@ -3314,9 +3314,9 @@
     "KnowledgeAndlearning": null,
     "FinanceAndBudgets": 1,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": null
   },
   {
@@ -3334,9 +3334,9 @@
     "KnowledgeAndlearning": null,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/www.v-20.org"
   },
   {
@@ -3354,9 +3354,9 @@
     "KnowledgeAndlearning": null,
     "FinanceAndBudgets": 1,
     "PracticeAndInnovation": null,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/www.bsr.org"
   },
   {
@@ -3374,9 +3374,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": 1,
-    "ActiveOnCOVID-19": 0,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": 0,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/www.wemeanbusinesscoalition.org"
   },
   {
@@ -3394,9 +3394,9 @@
     "KnowledgeAndlearning": 1,
     "FinanceAndBudgets": null,
     "PracticeAndInnovation": 1,
-    "ActiveOnCOVID-19": -88,
-    "DescriptionOnCOVID-19": "",
-    "HyperlinkToCOVID-19": "",
+    "ActiveOnCovid": -88,
+    "DescriptionOnCOVID": "",
+    "HyperlinkToCOVID": "",
     "logo": "https://logo.clearbit.com/www.zilient.org"
   }
 ]

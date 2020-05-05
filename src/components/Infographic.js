@@ -2,7 +2,7 @@ import React from "react";
 import Infocards from "./Infocards";
 import "./styles/infographic.scss";
 
-const Infographic = ({ totalOrg, partners }) => {
+const Infographic = ({ totalOrg, partners, covidSum }) => {
   return (
     <div className="infographic">
       <h1 className="infographicTitle">Resilience Organizations</h1>
@@ -15,7 +15,7 @@ const Infographic = ({ totalOrg, partners }) => {
         <Infocards copy1="We work actively with" title={[<span className="cardTwoTitle">50+ </span>, "initiatives"]} />
         <Infocards
           title={[<span className="cardThreeTitle">Covid 19</span>]}
-          copy2={`${"Actions taken by the \n initiatives"}`}
+          copy2={covidSum}
         />
       </div>
     </div>
@@ -23,3 +23,5 @@ const Infographic = ({ totalOrg, partners }) => {
 };
 
 export default Infographic;
+
+// {`${"Actions taken by the \n initiatives"}`}
