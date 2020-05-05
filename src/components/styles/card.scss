@@ -1,4 +1,20 @@
 @import "base";
+.cards {
+  margin: 25px 0;
+  transition: 0.3s;
+
+  &:hover {
+    .card {
+      transition: 0.3s;
+      transform: translateY(-7px);
+    }
+
+    .extraCard {
+      transition: 0.3s;
+      transform: translateY(7px);
+    }
+  }
+}
 .card {
   width: auto;
   height: auto;
@@ -8,6 +24,8 @@
   justify-content: center;
   padding: 20px 35px;
   border-radius: 5px;
+  background-color: $white;
+  z-index: 1;
 
   img {
     height: 100px;
@@ -48,5 +66,52 @@
     flex-direction: row;
     justify-content: space-between;
     margin-top: 20px;
+  }
+}
+
+.extraCard {
+  position: relative;
+  background-color: $white;
+  box-shadow: 0px 3px 10px #d7d7e0;
+  top: -230px;
+  width: 100%;
+  height: 270px;
+  z-index: -1;
+  margin: 0;
+  margin-bottom: -220px;
+
+  .cardBottom {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: -230px;
+    justify-content: space-between;
+    padding: 8px;
+    p {
+      color: $red;
+      font-family: $title-font;
+    }
+    object {
+      width: 20px;
+    }
+  }
+}
+
+.flipCard {
+  animation: extraCard2Front 2s 1;
+}
+
+@keyframes extraCard2Front {
+  0% {
+    top: 0;
+    z-index: -1;
+  }
+  50% {
+    top: -200px;
+    z-index: 0;
+  }
+  100% {
+    top: 0;
+    z-index: 1;
   }
 }
