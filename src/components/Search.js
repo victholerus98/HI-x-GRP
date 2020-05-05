@@ -77,10 +77,12 @@ const Search = ({ setData, defaultData }) => {
   function search(data) {
     return data.filter((item) => {
       let wordMatch = 0;
-      if (item.NameOfInitiative.indexOf(searchTerm) > -1) {
+      if (
+        item.NameOfInitiative.toUpperCase().includes(searchTerm.toUpperCase())
+      ) {
         wordMatch++;
       }
-      if (item.Summary.indexOf(searchTerm) > -1) {
+      if (item.Summary.toUpperCase().includes(searchTerm.toUpperCase())) {
         wordMatch++;
       }
       return wordMatch;
