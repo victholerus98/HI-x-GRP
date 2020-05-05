@@ -1,6 +1,6 @@
-import React from "react"
-import Infocards from "./Infocards"
-import "./styles/infographic.scss"
+import React from "react";
+import Infocards from "./Infocards";
+import "./styles/infographic.scss";
 
 const Infographic = ({ totalOrg, partners, covidSum }) => {
   return (
@@ -11,7 +11,7 @@ const Infographic = ({ totalOrg, partners, covidSum }) => {
           copy1="Today we have"
           title={[
             <span className="cardOneTitle">{totalOrg} </span>,
-            "initiatives"
+            "initiatives",
           ]}
           copy2="and counting..."
         />
@@ -29,7 +29,7 @@ const Infographic = ({ totalOrg, partners, covidSum }) => {
         />{" "}
         <Infocards
           title={[<span className="cardThreeTitle">Covid 19</span>]}
-          copy2={covidSum}
+          copy2={`We currently have ${covidSum} organizations working with COVID`}
           linkImg={
             <a className="linkButton" href="/">
               <object
@@ -41,7 +41,7 @@ const Infographic = ({ totalOrg, partners, covidSum }) => {
         />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Infographic
+export default Infographic;
