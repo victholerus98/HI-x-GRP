@@ -31,10 +31,10 @@
   }
 }
 .typeDisplacement {
-  transform: translateX(80px);
+  transform: translateX(60px);
 }
 .geoDisplacement {
-  transform: translateX(12vw);
+  transform: translateX(8vw);
 }
 
 .filterDropDown button::before {
@@ -48,13 +48,19 @@
 .filterContainer {
   display: inline-block;
   flex-direction: row;
-  margin: 2vh 3vw;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  margin-left: 3vw;
+  min-width: 300px;
+  justify-self: flex-start;
+
   p {
-    padding: 10px;
+    padding: 0 10px;
     font-family: $primary-font;
     display: inline-block;
-    font-size: 18px;
+    font-size: 16px;
   }
+
   button {
     outline: none;
     height: 2rem;
@@ -63,6 +69,7 @@
     border-radius: 20px;
     min-width: 60px;
     padding: 4px 10px;
+    font-family: $primary-font;
     font-size: 16px;
   }
 

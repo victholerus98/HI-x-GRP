@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./styles/searchbar.scss";
 
-const Searchbar = ({ setSearchTerm }) => {
+const Searchbar = ({ searchTerm, setSearchTerm }) => {
   const [preSearchTerm, setPreSearchTerm] = useState("");
 
   const handleChange = (event) => {
@@ -12,6 +12,10 @@ const Searchbar = ({ setSearchTerm }) => {
   const handleSearch = () => {
     setSearchTerm(preSearchTerm);
   };
+
+  useEffect(() => {
+    setPreSearchTerm(searchTerm);
+  }, [searchTerm]);
 
   return (
     <div className="searchContainer">

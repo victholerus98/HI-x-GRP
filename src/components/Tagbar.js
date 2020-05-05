@@ -14,9 +14,9 @@ const tagsArray = [
 ];
 
 const tagsRealInitial = [
-  "Public",
-  "Private",
-  "CSO",
+  "PublicPrivateOrCSOFocus",
+  "PublicPrivateOrCSOFocus",
+  "PublicPrivateOrCSOFocus",
   "LinkedToUNCAS",
   "PolicyAndPlanning",
   "KnowledgeAndlearning",
@@ -32,7 +32,7 @@ const Tagbar = ({ activeTags, setActiveTags, displayTags, setDisplayTags }) => {
   const setTags = (e) => {
     const tagName = e.currentTarget.dataset.name;
     const tagValue = e.currentTarget.dataset.tag;
-    if (activeTags.indexOf(tagValue) === -1) {
+    if (displayTags.indexOf(tagValue) === -1) {
       setDisplayTags([...displayTags, tagName]);
       setActiveTags([...activeTags, tagValue]);
     }

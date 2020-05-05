@@ -10,19 +10,14 @@ import Search from "./components/Search";
 
 function App() {
   const [data, setData] = useState(Data);
-
   const totalOrganizations = Data.length;
-  // const partnerArray = Data.filter((object) => {
-  //   return object.Type.search("partnership") > -1;
-  // });
-  // console.log(partnerArray.length);
 
   return (
     <div className="App">
       <Navbar />
       <Infographic totalOrg={totalOrganizations} partners={50} />
 
-      <Search data={data} setData={setData} defaultData={Data} />
+      <Search setData={setData} defaultData={Data} />
       <Cards data={data} />
     </div>
   );

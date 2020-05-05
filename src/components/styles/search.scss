@@ -7,6 +7,12 @@
   justify-content: space-between;
 }
 
+.searchLine2 {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+}
+
 .hrBlue {
   border: 0.4px solid $secondary-color;
   width: 93%;
