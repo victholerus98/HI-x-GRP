@@ -100,6 +100,8 @@ $card-displacement: -320px;
     }
     object {
       width: 20px;
+      pointer-events: none;
+      cursor: pointer;
     }
   }
 }
