@@ -65,7 +65,6 @@ const Search = ({ setData, defaultData }) => {
     }
 
     if (filterResults) {
-      console.log("data length " + searchResult.length);
       setData(searchResult);
       setSearchActive(true);
     } else {

@@ -10,14 +10,21 @@ const Infographic = ({ totalOrg, partners, covidSum }) => {
         <Infocards
           copy1="Today we have"
           title={[
-            <span className="cardOneTitle">{totalOrg} </span>,
+            <span className="cardOneTitle" key="cardOne">
+              {totalOrg}{" "}
+            </span>,
             "initiatives",
           ]}
           copy2="and counting..."
         />
         <Infocards
           copy1="We work actively with"
-          title={[<span className="cardTwoTitle">50+ </span>, "initiatives"]}
+          title={[
+            <span className="cardTwoTitle" key="cardTwo">
+              50+{" "}
+            </span>,
+            "initiatives",
+          ]}
           linkImg={
             <a className="linkButton" href="/">
               <object
@@ -26,9 +33,13 @@ const Infographic = ({ totalOrg, partners, covidSum }) => {
               ></object>
             </a>
           }
-        />{" "}
+        />
         <Infocards
-          title={[<span className="cardThreeTitle">Covid 19</span>]}
+          title={[
+            <span className="cardThreeTitle" key="cardThree">
+              Covid 19
+            </span>,
+          ]}
           copy2={`We currently have ${covidSum} organizations working with COVID`}
           linkImg={
             <a className="linkButton" href="/">
