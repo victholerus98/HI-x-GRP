@@ -69,22 +69,29 @@
   }
 }
 
+$card-displacement: -320px;
+
 .extraCard {
   position: relative;
   background-color: $white;
   box-shadow: 0px 3px 10px #d7d7e0;
-  top: -230px;
+  top: $card-displacement;
   width: 100%;
-  height: 270px;
-  z-index: -1;
+  height: 360px;
   margin: 0;
-  margin-bottom: -220px;
+  margin-bottom: calc(#{$card-displacement} - 10px);
+  transition: 0.3s;
+
+  .card-desc {
+    position: absolute;
+    padding: 10px;
+  }
 
   .cardBottom {
     display: flex;
     flex-direction: row;
     position: relative;
-    bottom: -230px;
+    bottom: $card-displacement;
     justify-content: space-between;
     padding: 8px;
     p {
@@ -98,20 +105,55 @@
 }
 
 .flipCard {
-  animation: extraCard2Front 2s 1;
+  animation: extraCard2Front 1s 1;
+}
+
+.z-0 {
+  z-index: 0;
+}
+
+.z-2 {
+  z-index: 2;
+}
+
+.z--1 {
+  z-index: -1;
+}
+
+.flipCardBack {
+  animation: extraCard2Back 1s 1;
 }
 
 @keyframes extraCard2Front {
-  0% {
-    top: 0;
+  from {
+    top: $card-displacement;
     z-index: -1;
   }
+
   50% {
-    top: -200px;
+    top: 0;
     z-index: 0;
   }
-  100% {
-    top: 0;
+
+  to {
+    top: $card-displacement;
     z-index: 1;
+  }
+}
+
+@keyframes extraCard2Back {
+  from {
+    top: $card-displacement;
+    z-index: 1;
+  }
+
+  50% {
+    top: 0;
+    z-index: 0;
+  }
+
+  to {
+    top: $card-displacement;
+    z-index: -1;
   }
 }

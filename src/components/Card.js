@@ -22,7 +22,7 @@ const Card = ({ item }) => {
 
   return (
     <div className="cards" onClick={expandCard}>
-      <div className="card">
+      <div className="card z-0">
         <h2>{NameOfInitiative}</h2>
         {logo ? <img src={`${logo}`} alt="logo" /> : null}
 
@@ -40,7 +40,16 @@ const Card = ({ item }) => {
         </div>
       </div>
       {ActiveOnCovid ? (
-        <div className={extraCard ? `extraCard flipCard` : `extraCard`}>
+        <div
+          className={
+            extraCard
+              ? `extraCard flipCard z-2 `
+              : `extraCard flipCardBack z--1`
+          }
+        >
+          <div className="card-desc">
+            <p>{DescriptionOnCOVID}</p>
+          </div>
           <div className="cardBottom">
             <p>COVID-19</p>
             <a className="covid-btn" href={HyperlinkToCOVID}>
