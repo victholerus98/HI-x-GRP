@@ -33,7 +33,7 @@ const Infographic = ({ totalOrg, partners, covidSum }) => {
               ></object>
             </a>
           }
-        />{" "}
+        />
         <Infocards
           title={[
             <span className="cardThreeTitle" key="cardThree">

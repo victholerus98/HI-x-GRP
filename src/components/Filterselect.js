@@ -50,10 +50,10 @@ const Filterselect = ({
         }
         // ref={dropDown}
       >
-        {filterItems.map((item) => (
+        {filterItems.map((item, i) => (
           <button
             className="filterItem"
-            key={item}
+            key={i}
             data-filter={item}
             onClick={setFilter}
           >
