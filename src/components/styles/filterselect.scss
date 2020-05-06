@@ -13,6 +13,8 @@
   background-color: white;
   // left: 6.5vw;
   transform: translateY(-15px);
+  display: flex;
+  flex-direction: column;
 
   .filterItem {
     background-color: $off-white;
@@ -21,15 +23,21 @@
     border-radius: 5px;
     list-style-position: inside;
     list-style: none;
+    border: none;
+    text-align: left;
+    &:hover {
+      background-color: $light-blue;
+    }
   }
 }
 .typeDisplacement {
-  transform: translateX(80px);
+  transform: translateX(60px);
 }
 .geoDisplacement {
-  transform: translateX(185px);
+  transform: translateX(8vw);
 }
-ul li::before {
+
+.filterDropDown button::before {
   content: "\2022";
   color: $secondary-color;
   font-weight: bold;
@@ -40,21 +48,28 @@ ul li::before {
 .filterContainer {
   display: inline-block;
   flex-direction: row;
-  margin: 2vh 3vw;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  margin-left: 3vw;
+  min-width: 300px;
+  justify-self: flex-start;
+
   p {
-    padding: 10px;
+    padding: 0 10px;
     font-family: $primary-font;
     display: inline-block;
-    font-size: 18px;
+    font-size: 16px;
   }
+
   button {
-    outline:none;
+    outline: none;
     height: 2rem;
     background-color: $primary-color;
     border: none;
     border-radius: 20px;
     min-width: 60px;
     padding: 4px 10px;
+    font-family: $primary-font;
     font-size: 16px;
   }
 

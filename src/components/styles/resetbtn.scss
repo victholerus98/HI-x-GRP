@@ -1,0 +1,18 @@
+@import "base";
+
+.resetBtn {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: auto;
+  height: 48px;
+  background-color: $secondary-color;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 5px 10px;
+  margin-top: 10px;
+  margin-right: 50px;
+  font-family: $primary-font;
+  font-size: 16px;
+}

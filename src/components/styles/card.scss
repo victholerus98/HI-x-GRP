@@ -11,7 +11,7 @@
 
   img {
     height: 100px;
-    margin: 35px 0;
+    margin-bottom: 35px;
     align-self: center;
   }
 
@@ -28,6 +28,7 @@
     font-family: $secondary-font;
     font-size: 24px;
     font-weight: 500;
+    margin-bottom: 35px;
   }
   .homebutton {
     display: inline-block;

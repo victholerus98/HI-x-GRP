@@ -1,6 +1,6 @@
-import React from "react"
-import Infocards from "./Infocards"
-import "./styles/infographic.scss"
+import React from "react";
+import Infocards from "./Infocards";
+import "./styles/infographic.scss";
 
 const Infographic = ({ totalOrg, partners, covidSum }) => {
   return (
@@ -41,7 +41,7 @@ const Infographic = ({ totalOrg, partners, covidSum }) => {
         />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Infographic
+export default Infographic;
