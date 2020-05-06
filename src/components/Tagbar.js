@@ -48,7 +48,11 @@ const Tagbar = ({ activeTags, setActiveTags, displayTags, setDisplayTags }) => {
   return (
     <div className="tagContainer">
       <button className="tagMenu" onClick={tagBtnClick}>
-        Tags +
+        Tags
+        <object
+          data={require("../assets/plus.svg")}
+          aria-label="arrow"
+        ></object>
       </button>
       {displayTags &&
         displayTags.map((tag, i) => {
@@ -60,7 +64,11 @@ const Tagbar = ({ activeTags, setActiveTags, displayTags, setDisplayTags }) => {
               data-name={tag}
               data-tag={tagsRealInitial[tagsArray.indexOf(tag)]}
             >
-              {tag + " X"}
+              {tag}
+              <object
+                data={require("../assets/close.svg")}
+                aria-label="arrow"
+              ></object>
             </button>
           );
         })}
@@ -77,7 +85,11 @@ const Tagbar = ({ activeTags, setActiveTags, displayTags, setDisplayTags }) => {
               data-name={tag}
               data-tag={tagsRealInitial[i]}
             >
-              {tag + " +"}
+              {tag}
+              <object
+                data={require("../assets/plus.svg")}
+                aria-label="arrow"
+              ></object>
             </button>
           );
         })}
