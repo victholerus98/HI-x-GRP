@@ -39,8 +39,8 @@ const Filterselect = ({ filterName, filterItems, styleDropDown }) => {
             : `hidden filterDropDown ${styleDropDown}`
         }
       >
-        {filterItems.map((item) => (
-          <li className="filterItem" key={item}>
+        {filterItems.map((item, i) => (
+          <li className="filterItem" key={i}>
             {item}
           </li>
         ))}

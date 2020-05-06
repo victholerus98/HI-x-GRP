@@ -3,7 +3,6 @@ import React from "react";
 const Tags = ({ item }) => {
   const {
     LinkedToUNCAS,
-    MainGeographicFocus,
     PublicPrivateOrCSOFocus,
     PolicyAndPlanning,
     KnowledgeAndlearning,
@@ -31,11 +30,11 @@ const Tags = ({ item }) => {
   return (
     <div>
       {tagArray.map((tag, i) => {
-        return tag && <button className="tag">{tagNameArray[i]}</button>;
+        return tag && <button className="tag" key={i}>{tagNameArray[i]}</button>;
       })}
       {publicPrivateCsoFocus.map((tag, i) => {
         return (
-          tag && <button className="tag">{publicPrivateCsoFocus[i]}</button>
+          tag && <button className="tag" key={i}>{publicPrivateCsoFocus[i]}</button>
         );
       })}
     </div>
