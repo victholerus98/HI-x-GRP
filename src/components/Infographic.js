@@ -41,14 +41,14 @@ const Infographic = ({ totalOrg, partners, covidSum }) => {
             </span>,
           ]}
           copy2={`We currently have ${covidSum} organizations working with COVID`}
-          linkImg={
-            <a className="linkButton" href="/">
-              <object
-                data={require("../assets/externalLink.svg")}
-                aria-label="link button"
-              ></object>
-            </a>
-          }
+          // linkImg={
+          //   <a className="linkButton" href="/">
+          //     <object
+          //       data={require("../assets/externalLink.svg")}
+          //       aria-label="link button"
+          //     ></object>
+          //   </a>
+          // }
         />
       </div>
     </div>
