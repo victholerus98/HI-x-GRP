@@ -22,7 +22,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Infographic
 
-In this section there are a title and 3 cards. Here the plan is to have the numbers in the cards update when the database is updated. Normally the infographic section will have 2 cards, but for the special event that's happening another card can be added for more info. Some cards have a blue link icon on the rop right, this indicates that you can click on the card to get to another page.
+In this section there are a title and 3 cards. Here the plan is to have the numbers in the cards update when the database is updated. Normally the infographic section will have 2 cards, but for the special event that's happening another card can be added for more info. Some cards have a blue link icon on the top right, this indicates that you can click on the card to get to another page.
 
 ## Search functionalities
 
