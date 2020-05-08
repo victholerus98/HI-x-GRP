@@ -55,6 +55,8 @@ These are simply read from the json (excel database) and the size of the card is
 The logos are retrieved with an api, and it's available on https://clearbit.com/logo. We used the api and a separate Express server to first see if we can retrieve the logos, if it's found the logos will be written into the database. The next time we run the code on our website we just use the link that is provided with the api. The minimizes the amount of calls on client side.
 The code used to retrieve the icons are on https://github.com/joakimhellgren/fetch-clearbit-logo
 
+For the logos to work on all the initiatives make sure that they have some logo on their website. There is one initiative that has the logo of blogspot, so checking if each logo is correct is important.
+
 ### Tags
 
 The tags are created if the data in the json showed a "1".
